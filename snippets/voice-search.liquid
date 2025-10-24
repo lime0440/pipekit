@@ -1,0 +1,58 @@
+{%  liquid
+    #Props:
+        # fallback: HTML (search form submit button)
+
+    assign NS = 'voice-search'
+    assign cn = '#' | append: NS
+%}
+
+{% render 'load-css', file: NS %}
+
+<{{ NS }}
+    class="{{ cn }}"
+    section-id="{{ section.id }}"
+    default-message="{{ 'general.search.voice_search.default_message' | t }}"
+    repeat-message="{{ 'general.search.voice_search.repeat_message' | t }}"
+    {% if settings.predictive_search_enable %}predictive-search{% endif %}    
+>
+    <div class="{{ cn }}-btn" data-element="trigger">
+        {% render 'icon', name: 'microphone' %}
+    </div>
+
+    {% capture Voice_search_modal_content %}
+        <div class="{{ cn }}-modal">
+            <div class="{{ cn }}-modal-inner">
+                <div class="{{ cn }}-modal-part">
+                    <div>
+                        <div class="{{ cn }}-modal-part-text" data-element="text-content"></div>
+                        <div class="{{ cn }}-modal-part-repeat styled-link" data-element="repeat" hidden>
+                            {{ 'general.search.voice_search.repeat_link' | t }}
+                        </div>
+                    </div>
+                </div>
+                <div class="{{ cn }}-modal-part">
+                    <div class="{{ cn }}-modal-icon-wrapper">
+                        <div class="{{ cn }}-modal-icon-backdrop"></div>
+                        <div class="{{ cn }}-modal-icon">
+                            {% render 'icon', name: 'microphone' %}
+                        </div>
+                    </div>
+                    <modal-close class="{{ cn }}-modal-part-close-btn" section-id="{{ section.id }}">
+                        {% render 'icon', name: 'x' %}
+                    </modal-close>
+                </div>
+            </div>
+        </div>
+    {% endcapture %}
+    
+    {%- render 'modal' 
+        content: Voice_search_modal_content,
+        animation: 'none',
+        width: 'min(600px, 90vw)'
+        show_close: false
+    -%}
+</{{ NS }}>
+
+<div class="{{ cn }}-fallback">
+    {{ fallback }}
+</div>

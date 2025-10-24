@@ -1,0 +1,52 @@
+{% liquid
+    # PROPS:
+    # - video
+    # - height
+    # - mobile_height
+    # - loop: Boolean
+    # - use_original_ar - (Passed only from d_video-player section)
+
+    assign NS = "video-player"
+    assign cn = "#" | append: NS
+    assign accent_color = settings.color_accent
+
+    assign video_original_ar = true
+    if use_original_ar != nil
+        assign video_original_ar = use_original_ar
+    endif
+
+    if video.aspect_ratio != blank and video_original_ar
+        assign video_ar = video.aspect_ratio
+    endif
+%}
+
+{% render 'load-css', file: 'plyr' %}
+{% render 'load-css', file: 'video-player' %}
+
+<{{ NS }} 
+    class="{{ cn }}"
+    section-id="{{ section.id }}"
+    style="
+        --video-height: {{ height | default: 'auto'  }};
+        --video-mobile-height:{{ mobile_height | default: 'auto' }};
+        --video-ar: {{ video_ar | default: '16/9' }};
+        {% if accent_color %}--plyr-color-main:{{ accent_color }};{% endif %}
+    "
+    {% if loop == true %} loop {% endif %}
+>
+    {%- if video.media_type == 'video' -%}
+        {{ video | video_tag }}
+    {%- else -%}
+        {% liquid
+            if video.media_type == 'external_video'
+                assign video_id = video.external_id
+                assign video_type = video.host
+            elsif video.media_type == blank
+                assign video_id = video.id
+                assign video_type = video.type
+            endif
+        %}
+        <div data-element="player" data-plyr-provider="{{ video_type }}" data-plyr-embed-id="{{ video_id }}"></div>
+    {%- endif -%}
+</{{ NS }}>
+<script type="module" src="{{ 'video-player.js' | asset_url }}"></script>

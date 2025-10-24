@@ -1,0 +1,142 @@
+{% liquid
+    assign NS = 'product-specs'
+    assign cn = '#' | append: NS
+
+    assign specs_list = specs | split: "</p>"
+    
+    if use_expand
+        assign has_excess = false
+        assign specs_limit = 3
+        assign show_all_threshold = specs_limit | plus: 2
+
+        if specs_list.size > show_all_threshold
+            assign has_excess = true
+        endif
+    endif
+%}
+
+{% comment %} {% capture Specs %}
+    {% for spec in specs_list %}
+        {% assign parts = spec | strip_html | split: ':' %}
+        {% assign label = parts[0] | strip %}
+        {% assign value = parts[1] | strip %}
+        {% if value != blank and label != blank %}
+          {% if value != blank %}
+            <div class="{{ cn }}-item {% if has_excess and forloop.index > specs_limit %}!excess{% endif %}">
+                <span class="{{ cn }}-item-name">{{ label }}</span>
+                <span class="{{ cn }}-item-value">{{ value }}</span> 
+            </div>
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% endcapture %} {% endcomment %}
+
+<div class="{{ cn }}">
+{% render 'load-css', file: NS %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_colour != blank %}
+    <div class="{{ cn }}-item spec-colour">
+        <span class="{{ cn }}-item-name">Colour</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_colour }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_colour != blank%}
+    <div class="{{ cn }}-item spec-colour">
+        <span class="{{ cn }}-item-name">Colour</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_colour }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_length != blank %}
+    <div class="{{ cn }}-item spec-length">
+        <span class="{{ cn }}-item-name">Length</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_length }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_length != blank%}
+    <div class="{{ cn }}-item spec-length">
+        <span class="{{ cn }}-item-name">Length</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_length }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_unit_of_measure != blank %}
+    <div class="{{ cn }}-item spec-unit-of-measure">
+        <span class="{{ cn }}-item-name">Unit of Measure</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_unit_of_measure }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_unit_of_measure != blank%}
+    <div class="{{ cn }}-item spec-unit-of-measure">
+        <span class="{{ cn }}-item-name">Unit of Measure</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_unit_of_measure }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_approvals != blank %}
+    <div class="{{ cn }}-item spec-approvals">
+        <span class="{{ cn }}-item-name">Approvals</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_approvals }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_approvals != blank%}
+    <div class="{{ cn }}-item spec-approvals">
+        <span class="{{ cn }}-item-name">Approvals</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_approvals }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_material != blank %}
+    <div class="{{ cn }}-item spec-material">
+        <span class="{{ cn }}-item-name">Material</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_material }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_material != blank%}
+    <div class="{{ cn }}-item spec-material">
+        <span class="{{ cn }}-item-name">Material</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_material }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_diameter != blank %}
+    <div class="{{ cn }}-item spec-diameter">
+        <span class="{{ cn }}-item-name">Diameter</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_diameter }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_diameter != blank%}
+    <div class="{{ cn }}-item spec-diameter">
+        <span class="{{ cn }}-item-name">Diameter</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_diameter }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_diameter_1 != blank %}
+    <div class="{{ cn }}-item spec-diameter-1">
+        <span class="{{ cn }}-item-name">Diameter #1</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_diameter_1 }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_diameter_1 != blank%}
+    <div class="{{ cn }}-item spec-diameter-1">
+        <span class="{{ cn }}-item-name">Diameter #1</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_diameter_1 }}</span> 
+    </div>
+{% endif %}
+{% if product.selected_or_first_available_variant.metafields.custom.specification_diameter_2 != blank %}
+    <div class="{{ cn }}-item spec-diameter-2">
+        <span class="{{ cn }}-item-name">Diameter #2</span>
+        <span class="{{ cn }}-item-value">{{ product.selected_or_first_available_variant.metafields.custom.specification_diameter_2 }}</span> 
+    </div>
+{%  elsif product.metafields.custom.specification_diameter_2 != blank%}
+    <div class="{{ cn }}-item spec-diameter-2">
+        <span class="{{ cn }}-item-name">Diameter #2</span>
+        <span class="{{ cn }}-item-value">{{ product.metafields.custom.specification_diameter_2 }}</span> 
+    </div>
+{% endif %}
+</div>
+
+{%- if Specs != blank -%}
+    {% render 'load-css', file: NS %}
+    <div class="{{ cn }}">
+        {%- if has_excess -%}
+            {%- assign expand_id = 'product-specs-expand-' | append: section.id -%}
+            <input class="{{ cn }}-checkbox" type="checkbox" id="{{ expand_id }}" hidden>
+            {{ Specs }}
+            <label class="{{ cn }}-link" for="{{ expand_id }}">
+                <span class="{{ cn }}-link-expand">{{ 'general.search.filters.show_all' | t }}</span>
+                <span class="{{ cn }}-link-collapse">{{ 'general.search.filters.show_less' | t }}</span>
+                {% render 'icon', name: 'angle-down' %}
+            </label>
+        {%- else -%}
+            {{ Specs }}
+        {%- endif -%}
+    </div>
+{%- endif -%}

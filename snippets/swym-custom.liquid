@@ -1,0 +1,76 @@
+<script>
+  const { Core, Events } = Global;
+
+  function swymCallbackFn(swat) {
+    // your API calls go here
+    document.addEventListener('swym:collections-loaded', function () {
+      swat.initializeActionButtons('collection-products');
+    });
+    let event = "sw:addedtocart";
+    let eventall = "sw:addedalltocart"
+    let listener = async function (e) {
+      const cartProvider = document.querySelector('cart-provider');
+      if (cartProvider) {
+        await cartProvider._requestCart('cartUpdate', {
+          sections: ['cart-drawer', 'cart-notification']
+        });
+      }
+
+      const cartDrawer = document.querySelector('cart-drawer');
+      if (cartDrawer) {
+        const modal = cartDrawer.querySelector('modal-container');
+        if (modal) {
+          modal.open();
+        }
+      }
+    };
+
+    swat.evtLayer.addEventListener(event, listener);
+    swat.evtLayer.addEventListener(eventall, listener);
+  }
+  if (!window.SwymCallbacks) {
+    window.SwymCallbacks = [];
+  }
+  window.SwymCallbacks.push(swymCallbackFn);
+</script>
+
+<script>
+(function() {
+  function sflInit(swat) {
+      swat.SaveForLater.init(
+          sfl => {
+              swat.sfl = sfl;
+              swat.sflLid = sfl.listid;
+              swat.SaveForLater.fetch(swat.sflLid, function(response){
+                  swat.sfl.listcontents = response.items;
+              }, err => console.error(err))
+          },
+          err => console.error(err)
+      )
+  }
+  if (!window.SwymCallbacks) window.SwymCallbacks = [];
+  window.SwymCallbacks.push(sflInit);
+  class SwymSflLineButton extends HTMLElement {
+      constructor() {
+        super();
+          this.button = this.querySelector('button');
+          if(this.button) this.button.addEventListener('click', this._addToSFL.bind(this));
+      }
+      _addToSFL(evt){
+        _swat.storage.set("pauseSFLPopup", true);
+        let quantity = parseInt(this.button.closest('div[class="#product-card-min"]').querySelector('span[class="#cart-drawer-product-qty"]').innerHTML);
+        const product = [{
+          'du': this.button.dataset.productUrl,
+          'empi': this.button.dataset.productId,
+          'epi': this.button.dataset.variantId,
+          'qty': quantity
+        }]
+        const cartRemoveButton = this.button.closest('div[class="#product-card-min"]').querySelector('cart-qty[class="#cart-drawer-product-remove"]');
+        _swat.SaveForLater.add(_swat.sflLid, product, res => console.log(res), err => console.error(err));
+        cartRemoveButton.click();
+        setTimeout(() => {_swat.storage.set("pauseSFLPopup", false)}, 2000)
+      }
+    }
+    customElements.define('swym-sfl-line-button', SwymSflLineButton);
+})();
+</script>

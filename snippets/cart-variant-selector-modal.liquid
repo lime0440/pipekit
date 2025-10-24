@@ -1,0 +1,115 @@
+{% liquid
+    assign NS = 'cart-variant-selector-modal'
+    assign cn = '#' | append: NS
+    assign product = line_item.product
+    assign modal_id = 'cart_item_variants_modal-' | append: line_item.key
+    assign available_variants_count = 0
+%}
+
+{%- capture Variants -%}
+    {%- for variant in product.variants -%}
+        {%- if variant.available -%}
+            {%- assign in_cart_count = 0 -%}
+            {%- if variant.id != line_item.variant_id -%}
+                {%- assign in_cart_count = cart | item_count_for_variant: variant.id -%}
+            {%- endif -%}
+            {%- if in_cart_count == 0 -%}
+                {%- assign available_variants_count = available_variants_count | plus: 1 -%}
+                {%- assign smaller_quantity = false -%}
+                {%- if line_item.quantity > variant.inventory_quantity and variant.inventory_management and variant.inventory_policy == 'deny' -%}
+                    {%- assign smaller_quantity = true -%}
+                {%- endif -%}
+                
+                <div class="{{ cn }}-selector-item">
+                    <input 
+                        class="{{ cn }}-selector-item-input" 
+                        id="{{ line_item.key | append: '-variant-option-radio-' | append: variant.id }}"
+                        name="{{ line_item.key | append: '-variant-option' }}"
+                        form=""
+                        type="radio"
+                        hidden
+                        value="{{ variant.id }}"
+                        data-quantity="
+                            {%- if smaller_quantity -%}
+                                {{ variant.inventory_quantity }}
+                            {%- else -%}
+                                {{ line_item.quantity }}
+                            {%- endif -%}
+                        "
+                        {%- if line_item.variant_id == variant.id -%}
+                            checked
+                        {%- endif -%}
+                    >
+                    <label class="{{ cn }}-selector-item-body" for="{{ line_item.key | append: '-variant-option-radio-' | append: variant.id }}">
+                        <div class="{{ cn }}-selector-item-description">
+                            <div class="{{ cn }}-selector-item-media">
+                                {%- assign variant_image = variant.featured_image | default: product.featured_image -%}
+                                {%- render 'media',
+                                    image: variant_image,
+                                    image_res: 80,
+                                    border_radius: 'inner'
+                                -%}
+                            </div>
+                        
+                            <div class="{{ cn }}-selector-item-title">
+                                <p>{{ variant.title }}</p>
+                                {%- if smaller_quantity -%}
+                                    <p class="{{ cn }}-stock-alert">{{ 'general.cart.only_available' | t: count: variant.inventory_quantity }}</p>
+                                {%- endif -%}
+                            </div>
+                        </div>
+                        <div class="{{ cn }}-selector-item-price">
+                            {%- render 'price',
+                                variant: variant,
+                                show_save_price: false,
+                                display_compare: false
+                            -%}
+                        </div>
+                    </label>
+                </div>
+            {%- endif -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endcapture -%}
+
+{%- if available_variants_count > 1 -%}
+    {%- capture Modal_content -%}
+        <div class="{{ cn }}-content">
+            <div class="{{ cn }}-header">
+                <div class="{{ cn }}-header-inner">
+                    <a class="{{ cn }}-header-inner-link" href="{{ product.url }}">
+                        <h2 class="{{ cn }}-header-inner-title heading-font">{{ product.title }}</h2>
+                    </a>
+                    <modal-close class="{{ cn }}-close" section-id="{{ section.id }}">
+                        {%- render 'icon', name: 'x' -%}
+                    </modal-close>
+                </div>
+            </div>
+              {{ Variants }}
+            <div class="{{ cn }}-selector">
+                
+            </div>
+        </div>
+    {%- endcapture -%}
+    
+    <{{ NS }}  
+        class="{{ cn }}" 
+        id="productVariantSelector" 
+        product-url="{{ product.url }}" 
+        product-id="{{ product.id }}" 
+        section-id="{{ section.id }}"
+        old-key="{{ line_item.key }}"
+        old-line-index="{{ line_index }}"
+    >
+        {%- render 'modal',
+            id: modal_id,
+            animation: 'zoom',
+            show_close: false,
+            content: Modal_content
+        -%}
+        <modal-open class="{{ cn }}-trigger" target="{{ modal_id }}" section-id="{{ section.id }}"> 
+            {% render 'icon', name: 'pencil' %}
+            {{ 'general.cart.change_variant' | t }}
+        </modal-open>
+    </{{ NS }}>
+{%- endif -%}

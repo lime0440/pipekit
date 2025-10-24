@@ -1,0 +1,73 @@
+{%#
+  #  search_as_icon:             Boolean
+  #  id:                         String
+  #  search_hotkey_node:         HTML ('search-hotkey' element)
+  #  cn:                         String
+%}
+
+{%- liquid
+    assign form_id = 'searchForm-' | append: id | append: section.id
+    assign search_input_id = 'search-input-' | append: id | append: section.id
+-%}
+
+  <div class="{{ cn }}">
+    {%- capture Search_form -%}
+        {%- capture Search_form_submit_btn -%}
+            <button class="{{ cn }}-submit" aria-label="{{ 'general.search.search' | t }}" data-element="button">
+                {% render 'icon', name: 'magnifying-glass' %}
+            </button>
+        {%- endcapture -%}
+
+        <form class="{{ cn }}-form" id="{{ form_id }}" action="{{ routes.search_url }}">
+            <input type="hidden" name="type" value="product">
+            {% if settings.search_product_type_enable %}
+                {%- assign product_type_input_id = 'search-product-type-' | append: id | append: section.id -%}
+                <div class="{{ cn }}-product-type">
+                    <select
+                        class="{{ cn }}-product-type-selector"
+                        id="{{ product_type_input_id }}"
+                        name="filter.p.product_type"
+                        data-element="product-type-select"
+                    >
+                        <option value="">{{ 'general.search.search_product_type_default_option' | t }}</option>
+                        {% for type in shop.types %}
+                            {% if type != blank %}
+                                <option value="{{ type }}">{{ type }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                    {% render 'icon', name: 'angle-down' %}
+                </div>
+            {% endif %}
+            <input class="{{ cn }}-input {% if settings.header_lights_off and search_as_icon == false %}lights-off-focus{% endif %}"
+                type="text"
+                placeholder="{{ 'general.search.search_placeholder' | t }}"
+                name="q"
+                {% capture search_terms %}{% render 'search_terms_format', terms: search.terms %}{% endcapture %}
+                value="{{ search_terms }}"
+                data-element="search-input"
+                id="{{ search_input_id }}"
+                {%- if settings.predictive_search_enable -%}autocomplete="off"{%- endif -%}
+            >
+            {% if settings.search_hotkey_enable and search_as_icon == false and search_hotkey_node != blank %}
+                {{ search_hotkey_node }}
+            {% endif %}
+            {% if settings.search_voice_enable %}
+                {% render 'voice-search'
+                    fallback: Search_form_submit_btn
+                %}
+            {% else %}
+                {{ Search_form_submit_btn }}
+            {% endif %}
+        </form>
+    {%- endcapture -%}
+    {%- if settings.predictive_search_enable -%}
+        {% render 'predictive-search',
+            search_form: Search_form,
+            modal_child: search_as_icon,
+            searchbar_id: id
+        %}
+    {%- else -%}
+        {{ Search_form }}
+    {%- endif -%}
+</div>

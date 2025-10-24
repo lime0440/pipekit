@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Arboria";
+  font-weight: normal;
+  font-style: normal;
+  src: url("https://cdn.shopify.com/s/files/1/0816/2541/6009/files/d.woff") format("woff"),
+       url("https://cdn.shopify.com/s/files/1/0816/2541/6009/files/d.woff") format("woff");
+
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Arboria' !important;
+  font-weight: 700;
+}
+
+p, a, body {
+  font-family: 'Arboria' !important;
+  font-weight: 400;
+}
+.\#moving-content:not(.\@testimonials), .\#button, .\#footer-scroll-to-top{
+    font-family: 'Arboria' !important;
+}
+
+.\#product-qty-selector-label{
+  font-family: 'Arboria' !important;
+}

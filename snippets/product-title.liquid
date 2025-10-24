@@ -1,0 +1,95 @@
+{% liquid
+    # Props:
+    # - product
+    # - title_scale: int
+    # - show_wishlist_button: boolean
+    # - truncate_text: boolean
+    # - truncate_lines: int
+    # - with_link: boolean
+    # - badges_display: before | after | none
+    # - badges_scale: number
+
+    assign NS = 'product-title'
+    assign cn = '#' | append: NS 
+    assign badges_scale = badges_scale | default: 100
+    assign badges_size = badges_scale | times: 0.01
+
+    assign onboarding_title = 'onboarding.product_title' | t
+    assign product_title = product.title | default: onboarding_title
+
+    if badges_display != 'none' and badges_display != blank
+        assign badges = product.metafields.theme.custom_badges.value
+    endif
+    if product.selected_or_first_available_variant.inventory_quantity <= settings.stock_threshold and product.selected_or_first_available_variant.inventory_management and product.selected_or_first_available_variant.inventory_policy == 'deny'
+        assign low_stock_badge = 'products.product.low_stock' | t
+    endif
+%}
+
+{% capture Badges %}
+    {% capture Badges_content %}
+        {% if badges != blank and badges.size > 0 %}
+            {% for badge in badges %}
+                <span class="#badge @type:custom">{{ badge | strip }}</span>
+            {% endfor %}
+        {% endif %}
+        {% if show_low_stock and product.selected_or_first_available_variant.inventory_quantity <= settings.stock_threshold and product.selected_or_first_available_variant.inventory_management and product.selected_or_first_available_variant.inventory_policy == 'deny' %}
+            <span class="#badge @type:low-stock">{{ 'products.product.low_stock' | t }}</span>              
+        {% endif %}
+    {% endcapture %}
+    {% if Badges_content != blank %}
+        <div class="{{ cn }}-badges">
+            {{ Badges_content }}
+        </div>
+    {% endif %}
+{% endcapture %}
+
+{% render 'load-css', file: NS %}
+
+{% if with_link %}
+    {% capture title %}
+        <a class="reset-link" href="{{ product.url | default: '#'  }}">{{ product_title }}</a>
+    {% endcapture %}
+{% else %}
+    {% assign title = product_title %}
+{% endif %}
+
+<div class="{{ cn }}" style="--{{ NS }}-badge-size: {{ badges_size }}rem;">
+    {% if badges_display == 'before' %}
+        {{ Badges }}
+    {% endif %}
+    <h1 class="#heading" style="--heading-scale: {{ title_scale | times: 0.01 }};">
+        {% if truncate_text %}
+            <span class="#text-truncate" style="--text-truncate-lines: {{ truncate_lines }}">
+                {{ title }}
+            </span>
+        {% else %}
+            {{ title }}
+        {% endif %}
+    </h1>
+
+    {% if product.metafields.custom.temperature_range or product.metafields.custom.pressure_rating %} 
+        <div class="product-spec-icons" style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap; margin-top: 10px;">
+            {% if product.metafields.custom.temperature_range %}
+                <div class="spec-item" style="display: flex; align-items: center; gap: 6px;">
+                <img src="https://cdn.shopify.com/s/files/1/0816/2541/6009/files/Temp_Icon_9be83878-470e-4555-bbe2-ffdebb69bc04.png" alt="Temperature range" width="35" height="35">
+                <span>{{ product.metafields.custom.temperature_range.value }}</span>
+                </div>
+            {% endif %}
+            {% if product.metafields.custom.pressure_rating %}
+                <div class="spec-item" style="display: flex; align-items: center; gap: 6px;">
+                <img src="https://cdn.shopify.com/s/files/1/0816/2541/6009/files/Pressure_Icon_681e678e-9ccc-4dec-968c-15d7e7d9070e.png" alt="Pressure rating" width="30" height="30">
+                <span>{{ product.metafields.custom.pressure_rating.value }}</span>
+                </div>
+            {% endif %}
+        </div>
+    {% endif %}
+
+    {% if badges_display == 'after' %}
+        {{ Badges }}
+    {% endif %}    
+    {%- comment -%}
+    {% if show_wishlist_button %}
+        {% render 'wishlist-toggle', product_url: product.url, sync: true %}
+    {% endif %}
+    {%- endcomment -%}
+</div>

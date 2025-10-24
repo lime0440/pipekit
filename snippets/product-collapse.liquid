@@ -1,0 +1,121 @@
+{% assign cn = '#product-collapse' %}
+{% assign type = block.type | replace: 'collapsible_tab_', '' %}
+
+{%- case type -%}
+    {%- when 'text' -%}
+        {%- capture Content -%}
+            {% unless product.selected_or_first_available_variant.metafields.custom.technical_info == blank %}
+                <div class="#rte-block tech-content">
+                    {% comment %} {{ block.settings.content }} {% endcomment %}
+                    {{ product.selected_or_first_available_variant.metafields.custom.technical_info }}
+                </div>
+            {% endunless %}
+        {%- endcapture -%}
+    {%- when 'link' -%}
+        {%- capture Content -%}
+            {% unless product.selected_or_first_available_variant.metafields.custom.download_link == blank %}
+                <div class="#rte-block downloadable-content">
+                    {{- product.selected_or_first_available_variant.metafields.custom.download_link | metafield_tag -}}
+                </div>
+            {% endunless %}
+        {%- endcapture -%}
+    {%- when 'page' -%}
+        {%- capture Content -%}
+            <div class="#rte-block">
+                {{ block.settings.page.content }}
+            </div>
+        {%- endcapture -%}
+    {%- when 'specs' -%}
+        {%- capture Content -%}
+            {% render 'product-specs', specs: block.settings.specs %}
+        {%- endcapture -%}
+    {%- when 'desc' -%}
+        {%- capture Content -%}
+            <div class="#rte-block product-info-content">
+              {% if product.selected_or_first_available_variant.metafields.custom.variant_title != blank %}
+                {{ product.selected_or_first_available_variant.metafields.custom.variant_title }}
+              {% else %}
+                {% capture product_description %}
+                    {%render 'cut-sku-from-product-description', description: product.description %}
+                {% endcapture %}
+              {{ product_description }}
+              {% endif %}
+            </div>
+        {%- endcapture -%}    
+    {%- when 'question' -%}
+        {%- capture Content -%}
+            {%- render 'product-question',
+                product: product
+            -%}
+        {%- endcapture -%}
+{%- when 'faq' -%}
+  {%- capture Content -%}
+    {% assign faqs = product.metafields.custom.faq.value %}
+    {% if faqs %}
+       {% render 'faq-custom' %}
+      <div class="faq-content">
+        <div class="faq-accordion">
+          {% for faq in faqs %}
+            <div class="faq-item">
+              <button class="faq-question" type="button">
+                <h5 class="faq-title">
+                  {{ faq.question }}
+                   {% render 'icon', name: 'angle-down',  class: 'faq-icon'%}
+                </h5>
+              </button>
+              <div class="faq-answer faq-content">
+                {{ faq.answer | metafield_tag }}
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+       <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {% for faq in faqs %}
+            {
+              "@type": "Question",
+              "name": {{ faq.question | strip_html | json }},
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": {{ faq.answer | strip_html | json }}
+              }
+            }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      </script>
+      
+    {% endif %}
+  {%- endcapture -%}
+{%- endcase -%}
+
+{% unless Content == blank or Content == '' %}
+    {% render 'load-css', file: 'product-collapse' %}
+    
+    <details class="{{ cn }}">
+        <summary class="{{ cn }}-header">
+            <h5 class="{{ cn }}-heading collapse-header">
+                {% if block.settings.icon != 'none' %}
+                    <div class="{{ cn }}-heading-icon">
+                        {% render 'icon', name: block.settings.icon, load: true %}
+                    </div>
+                {% endif %}
+                {{ block.settings.heading }}
+            </h5>
+            <div class="{{ cn }}-indicator">
+                {% render 'icon', name: 'angle-down' %}
+            </div>
+        </summary>
+        <div class="{{ cn }}-body">
+            {{ Content }}
+            {% if Content == blank or Content == '' %}
+                BLANK
+            {% endif %}
+        </div>
+    </details>
+{% endunless %}

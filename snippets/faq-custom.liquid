@@ -1,0 +1,85 @@
+<style>
+.faq-accordion {
+  padding: 12px 12px 12px 0;
+}
+
+.faq-item {
+
+}
+.faq-title svg{
+    opacity: 0.6;
+    --size: 1.78em;
+    stroke-width: 0.8px;
+}
+.faq-question {
+  all: unset;
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.35rem 0;
+}
+
+.faq-title {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-weight: bold;
+  margin: 0;
+}
+
+.faq-svg {
+  transition: transform 0.3s ease;
+  width: 1rem;
+  height: 1rem;
+}
+
+.faq-item.open .faq-svg {
+  transform: rotate(180deg);
+}
+
+.faq-answer {
+  display: none;
+  padding-bottom: 1rem;
+  animation: fadeIn 0.3s ease;
+}
+
+.faq-item.open .faq-answer {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+faq-title svg {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.open .faq-title svg {
+  transform: rotate(180deg);
+}
+          
+        </style>
+
+
+          <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.closest('.faq-item');
+        const isOpen = faqItem.classList.contains('open');
+
+        // Close all
+        document.querySelectorAll('.faq-item').forEach(item => item.classList.remove('open'));
+
+        // Toggle current
+        if (!isOpen) {
+          faqItem.classList.add('open');
+        }
+      });
+    });
+  });
+</script>

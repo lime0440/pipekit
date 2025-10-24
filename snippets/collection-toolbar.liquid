@@ -1,0 +1,75 @@
+{%- liquid
+    assign NS = 'collection-toolbar'
+    assign cn = '#' | append: NS    
+-%}
+
+{% render 'load-css', file: NS %}
+
+{%- if show_view_switch -%}
+    {% capture Cards_view_switch %}
+        <collection-view-switch class="{{ cn }}-view-switch mobile-hidden" section-id="{{ section.id }}">
+            <div class="{{ cn }}-view-switch-title">
+                {{ 'sections.collection_template.view_switch_title' | t }}
+            </div>
+            <div class="{{ cn }}-view-switch-icons">
+                <input
+                    class="{{ cn }}-view-switch-input"
+                    type="radio"
+                    id="collection-view-switch-list"
+                    name="collection-view-switch"
+                    value="list"
+                    data-element="switch-list"
+                    hidden
+                >
+                <label for="collection-view-switch-list" class="{{ cn }}-view-switch-label">
+                    {% render 'icon', name: 'list' %}
+                </label>
+                <input
+                    class="{{ cn }}-view-switch-input"
+                    type="radio"
+                    id="collection-view-switch-grid"
+                    name="collection-view-switch"
+                    value="grid"
+                    data-element="switch-grid"
+                    hidden
+                >
+                <label for="collection-view-switch-grid" class="{{ cn }}-view-switch-label">
+                    {% render 'icon', name: 'grid' %}
+                </label>
+            </div>
+        </collection-view-switch>
+    {% endcapture %}
+{%- endif -%}
+
+<div class="{{ cn }} {% if desktop_filters %}@desktop-filters{% endif %}{% unless filters_enabled %}@sort-only{% endunless %}">
+    <div class="#container">
+        <div class="{{ cn }}-inner">
+            {% if filters_enabled %}
+                <modal-open class="{{ cn }}-filters-button" target="{{ drawer_id }}" section-id="{{ section.id }}">
+                    {% render 'icon', name: 'filter' %} {{ 'products.facets.filter_button' | t }}
+                </modal-open>
+            {% endif %}
+            <div class="{{ cn }}-header {% if show_sort %}mobile-hidden{% endif %}"> 
+                <div class="{{ cn }}-status">
+                    <span data-element="collection-dynamic-block" id="Collection-{{ section.id }}-counter">
+                        {{ status }}
+                    </span>
+                </div>
+            </div>
+            {%- if show_view_switch or show_sort -%}
+                <div class="{{ cn }}-sort">
+                    {%- if show_sort -%}
+                        {% render 'collection-sort',
+                            src: src
+                            form_id: sort_form_id,
+                            show_icons: sort_show_icons
+                        %}
+                    {%- endif -%}
+                    {%- if show_view_switch -%}
+                        {{ Cards_view_switch }}
+                    {%- endif -%}
+                </div>
+            {%- endif -%}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{% liquid
+	assign description_value = description | default: ''
+  assign separator = '&lt;!--sku--&gt;'
+  
+  if description_value contains separator
+    assign description_value = description_value | split: separator
+    assign description_value = description_value.last
+  endif
+%}
+
+{{description_value}}

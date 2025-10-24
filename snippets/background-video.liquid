@@ -1,0 +1,55 @@
+{% comment %}
+  Props:
+    video
+    height: {String} default: 100%
+    display_desktop_only: {boolean}
+{% endcomment %}
+
+
+{%- liquid
+    assign NS = 'background-video'
+    assign cn = '#' | append: NS
+
+-%}
+
+{% render 'load-css', file: NS %}
+
+<div class="{{ cn }}-wrapper" style="--height: {{ height }};">
+    <{{ NS }} class="{{ cn }} {% if display_desktop_only and request.design_mode %} mobile-hidden {% endif %}"
+        {% if display_desktop_only and request.design_mode == false %} desktop-only {% endif %}
+        section-id="{{ section.id }}"
+    >
+        <template data-element="template">
+{%- if video and video.media_type == 'video' -%}
+  {{ video | video_tag: autoplay: true, loop: true, muted: true }}
+
+{%- elsif video and video.type and video.id -%}
+  <div data-element="player" data-plyr-provider="{{ video.type }}" data-plyr-embed-id="{{ video.id }}"></div>
+
+  {%- elsif video_metafields != blank -%}
+    <div data-element="player" class="plyr__video-embed" style="aspect-ratio: 16 / 9;">
+      <iframe
+        src="{{ video_metafields }}"
+        frameborder="0"
+        allowfullscreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        title="Embedded Video"
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
+    </div>
+  {%- endif -%}
+
+
+        </template>
+        <div data-element="content"></div>
+    </{{ NS }}>
+</div>
+
+<div class="{{ cn }}-spinner {% if display_desktop_only %}mobile-hidden{% endif %}">
+    {% render 'spinner', size: 'sm', color: '#ffffff' %}
+</div>
+
+
+
+<script type="module" src="{{  NS | append: '.js' | asset_url }}"></script>

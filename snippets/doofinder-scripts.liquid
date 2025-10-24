@@ -1,0 +1,29 @@
+<script>
+  (function(w, k) {w[k] = window[k] || function () { (window[k].q = window[k].q || []).push(arguments) }})(window, "doofinderApp")
+  var dfKvCustomerEmail = "{{ customer.email }}";
+
+  doofinderApp("config", "currency", Shopify.currency.active);
+  doofinderApp("config", "language", Shopify.locale);
+  let context = Shopify.country;
+  {% if customer.b2b? %}
+    context = "{{customer.current_location.id}}";
+  {% endif %}
+  doofinderApp("config", "priceName", context);
+  localStorage.setItem("shopify-language", Shopify.locale);
+
+  doofinderApp("init", "layer", {
+    params:{
+      "":{
+        exclude: {
+          not_published_in: [context]
+        }
+      },
+      "product":{
+        exclude: {
+          not_published_in: [context]
+        }
+      }
+    }
+  });
+</script>
+<script src="https://eu1-config.doofinder.com/2.x/83dde656-ed34-4d1a-bcc9-efac40530803.js" async></script>

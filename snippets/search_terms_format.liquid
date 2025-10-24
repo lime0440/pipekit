@@ -1,0 +1,10 @@
+{% liquid
+  assign terms_value = terms
+  if terms_value contains 'variants.sku'
+		assign query_has_filter = true
+    assign terms_value = terms_value | replace: 'variants.sku:', ''
+    assign terms_value = terms_value | replace: '*', ''
+		
+  endif
+%}
+{{terms_value }}

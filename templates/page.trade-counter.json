@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d_map_fcxynA": {
+      "type": "d_map",
+      "settings": {
+        "color_scheme": "scheme-0dc592e9-4822-4f0c-bbae-674e62c1f005",
+        "heading": "Pipekit Trade Counter",
+        "address_text": "<p>Abella House, Longden Rd, Shrewsbury SY3 9PS, United Kingdom<br/>Open 07.30 - 17:00, Monday to Friday<br/></p>",
+        "show_directions": true,
+        "map_address": "Abella House, Longden Rd, Shrewsbury SY3 9PS, United Kingdom",
+        "google_api_key": "AIzaSyAVDPVh-Loj4uFyfvhAJUaPzY1LpXG5bfI",
+        "image_size": "550px",
+        "mobile_image_size": "350px",
+        "enable_interactions": true,
+        "zoom_level": 12,
+        "map_style": "default",
+        "map_marker_color": "#007da6",
+        "image": "shopify://shop_images/DSC_4670.jpg"
+      }
+    },
+    "header": {
+      "type": "s_page-header",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-0dc592e9-4822-4f0c-bbae-674e62c1f005",
+        "image_size": "250px",
+        "mobile_image_size": "250px",
+        "bg_image_overlay": 30,
+        "text_position": "inside",
+        "custom_text": ""
+      }
+    },
+    "main": {
+      "type": "s_page",
+      "disabled": true,
+      "settings": {
+        "content_width": 80,
+        "font_scale": 100
+      }
+    },
+    "d_image_with_text_LMFDnp": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_eCVFUE": {
+          "type": "heading",
+          "settings": {
+            "heading": "PIPEKIT Trade Counter",
+            "heading_scale": 120
+          }
+        },
+        "text_9cTcQX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our trade counter and showroom is open to the trade and the public offering a wide range of plastic pipes, fittings, valves and drainage. <br/><br/></p><p>Displays include products from Georg Fischer, Durapipe, Philmac, Vulcathene, Astore, Albion, Geberit and many others. NEW product ranges added for 2025 include Masterflow and FM Products.</p><p><br/></p><p></p><p></p><p>We also have a demonstration area where various products and jointing techniques can be tried out and experienced by our customers.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_eCVFUE",
+        "text_9cTcQX"
+      ],
+      "settings": {
+        "color_scheme": "scheme-0dc592e9-4822-4f0c-bbae-674e62c1f005",
+        "section_layout": "container",
+        "image": "shopify://shop_images/DSC_4009.jpg",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 30,
+        "image_position": "right",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_4FW4Cg": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "text_YFURgh": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Opening hours:</h3><p></p><p>Monday to Friday  -  <strong>07:30 - 17:00</strong> <br/><br/></p><h3>Address:</h3><p><br/></p><p><strong>Pipekit Ltd</strong></p><p></p><p><br/>Abella House<br/>Longden Road<br/>Shrewsbury<br/>Shropshire<br/>SY3 9PS<br/>United Kingdom</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_YFURgh"
+      ],
+      "settings": {
+        "color_scheme": "scheme-0dc592e9-4822-4f0c-bbae-674e62c1f005",
+        "section_layout": "container",
+        "image": "shopify://shop_images/image_1.jpg",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 30,
+        "image_position": "right",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    }
+  },
+  "order": [
+    "d_map_fcxynA",
+    "header",
+    "main",
+    "d_image_with_text_LMFDnp",
+    "d_image_with_text_4FW4Cg"
+  ]
+}

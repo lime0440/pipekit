@@ -1,0 +1,71 @@
+<div class="#product-card product-card-wrapper">
+  {% render 'media',
+    image: image,
+    srcsize_desktop: image_srcsize_desktop,
+    srcsize_mobile: image_srcsize_mobile,
+    image_mobile: mobile_image,
+    overlay: overlay,
+    type: media_type,
+    size: image_size,
+    size_mobile: mobile_image_size,
+    height: media_height,
+    height_mobile: mobile_media_height,
+    placeholder: 'detailed-apparel',
+    content: bg_video,
+    image_loading: image_loading
+  %}
+
+  <div class="overlay-content">
+    {% if card.promo_card_description %}
+    <h3 class="overlay-text"> {{ card.promo_card_description | metafield_tag }}</h3>
+    {% endif %}
+    {% if button_url and button_text  %}
+    <a href="{{ button_url }}" class="overlay-button #button">{{ button_text }}</a>
+    {% endif %}
+  </div>
+</div>
+
+
+<style>
+
+.product-card-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlay-content {
+  position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: inherit;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  width: 100%;
+      display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.overlay-text{
+  text-align: left;
+  font-family: var(--glob-product-card-title-family);
+    font-size: 1.25em;
+    font-weight: bold;
+    text-transform: var(--glob-product-card-title-transform);
+    letter-spacing: var(--glob-product-card-title-letter-spacing, normal);
+    margin-bottom: 0;
+    line-height: 1.4;
+    color: #fff;
+}
+.overlay-button {
+  padding: 12px 32px !important;
+  margin-top: 12px;
+  width: fit-content;
+background-color: var(--color-g-fg);
+}
+
+
+  
+</style>

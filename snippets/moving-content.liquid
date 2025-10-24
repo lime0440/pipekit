@@ -1,0 +1,30 @@
+{%- liquid
+  assign NS = 'moving-content'
+  assign cn = '#' | append: NS
+-%}
+
+{% render 'load-css', file: NS %}
+
+<{{ NS }}
+  class="
+    {{ cn }} 
+    {% if stop_on_hover %}@stop-on-hover{% endif %}
+    {% if stacked %}@stacked{% endif %}
+    {% if testimonials %}@testimonials{% endif %}
+  "
+  {% if text_marquee %} id="moving-content-items-desktop"{% endif %}
+  section-id="{{ section.id }}"
+  data-pause-on-hover="{{ stop_on_hover }}"
+  style="
+    {% if icon_color != blank %}--{{ NS }}-icon-color: {{ icon_color }};{% endif %}
+    {% if text_scale != blank %}--{{ NS }}-font-scale: {{ text_scale | times: 0.01 }};{% endif %}
+    --{{ NS }}-animation-direction:{{ direction }};
+    --{{ NS }}-animation-speed-mult:{{ speed_mult }};
+  ">
+  <div class="{{ cn }}-items" data-element="content">
+    {{ content }}
+  </div>
+</{{ NS }}>
+
+
+<script type="module" src="{{ NS | append: '.js' | asset_url }}"></script>

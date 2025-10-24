@@ -1,0 +1,69 @@
+{% liquid
+    # Props:
+    # - products
+    # - columns
+    # - mobile_columns
+    # - max_products
+    # - fallback_msg
+    # - limit (optional)
+    # - cards_view  'grid' | 'list' | 'switchable'
+
+    assign NS = 'collection-products'
+    assign cn = '#' | append: NS
+%}
+
+{% render 'load-css', file: 'product-card' %}
+
+
+<{{ NS }}
+    class="{{ cn }} {% if cards_view == 'list' %}@list{% endif %} {% if cards_view == 'switchable' and request.design_mode == false %}!init{% endif %}"
+    section-id="{{ section.id }}"
+    id="collection-products-{{ section.id }}"
+    {% if cards_view == 'switchable' %}
+        user-switchable
+    {% endif %}
+>
+    {% if products.size <= 0 %}
+        {{ fallback_msg }}
+    {% else %}
+        <div class="#grid @type:columns" style="--columns: {{ columns }}; --columns-mobile: {{ mobile_columns }};" data-element="products-container">
+        {% assign promo_cards = collection.metafields.custom.promo_cards.value %}
+        {% assign offset = product_offset | default: 0 %}
+        {% assign inserted_positions = '' %}
+              
+        {% for product in products limit:limit %}
+          {% assign product_index = forloop.index0 | plus: offset %}
+        
+          {% if promo_cards %}
+            {% for card in promo_cards %}
+              {% assign card_position = card.promo_card_position | plus: 0 %}
+              
+              {%- unless inserted_positions contains card_position -%}
+                {% if product_index == card_position %}
+                  {% capture inserted_positions %}{{ inserted_positions }}|{{ card_position }}|{% endcapture %}
+                  
+                  {% render 'collection-promo-card',
+                    card: card,
+                    image: card.promo_card_media,
+                    button_text: card.promo_card_button_text,
+                    button_url: card.promo_card_button_url
+                  %}
+                {% endif %}
+              {%- endunless -%}
+            {% endfor %}
+          {% endif %}
+          {% render 'product-card',
+            product: product,
+            image_srcsize_desktop: product_image_srcsize_desktop,
+            image_srcsize_mobile: product_image_srcsize_mobile
+          %}
+        {% endfor %}
+        </div>
+    {% endif %}
+</{{ NS }}>
+
+<script type="module" src="{{ NS | append: '.js' | asset_url }}"></script>
+
+{% if cards_view == 'switchable' %}
+    <script type="module" src="{{ 'collection-view-switch.js' | asset_url }}"></script>
+{% endif %}
