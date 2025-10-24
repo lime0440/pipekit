@@ -32,6 +32,7 @@
           "settings": {
             "color_scheme": "accent",
             "span": "4",
+            "image": "shopify://shop_images/Philmac-Joiner_2.jpg",
             "image_overlay": 0,
             "text_position": "bottom-left",
             "link": "https://www.pipekit.co.uk/collections/philmac-compression-fittings",
@@ -46,6 +47,7 @@
           "settings": {
             "color_scheme": "invert",
             "span": "4",
+            "image": "shopify://shop_images/PVC-U-Home-grid_f37200c3-d517-4f16-a3a2-40f398d6535c.jpg",
             "image_overlay": 0,
             "text_position": "bottom-left",
             "link": "https://www.pipekit.co.uk/collections/pvc-u-pressure-plastics",
@@ -60,6 +62,7 @@
           "settings": {
             "color_scheme": "invert",
             "span": "4",
+            "image": "shopify://shop_images/MLCP-Home-Image.jpg",
             "image_overlay": 0,
             "text_position": "bottom-left",
             "link": "shopify://collections/mlcp",
@@ -74,6 +77,7 @@
           "settings": {
             "color_scheme": "invert",
             "span": "4",
+            "image": "shopify://shop_images/AGD-Home-Grid.png",
             "image_overlay": 0,
             "text_position": "bottom-left",
             "link": "https://www.pipekit.co.uk/collections/above-ground-drainage",
@@ -88,6 +92,7 @@
           "settings": {
             "color_scheme": "invert",
             "span": "4",
+            "image": "shopify://shop_images/Metal-Valves-Home-Grid.jpg",
             "image_overlay": 0,
             "text_position": "bottom-left",
             "link": "https://www.pipekit.co.uk/collections/metal-valves",
@@ -851,7 +856,6 @@
       "disabled": true,
       "settings": {
         "color_scheme": "invert",
-        "heading_tag": "h2",
         "section_layout": "full",
         "image": "shopify://shop_images/Pipekit-Team-Image-2023.webp",
         "image_size": "450px",
@@ -902,7 +906,6 @@
       "disabled": true,
       "settings": {
         "color_scheme": "main",
-        "heading_tag": "h2",
         "section_layout": "full",
         "image": "shopify://shop_images/Pipekit_Team.jpg",
         "image_size": "450px",
