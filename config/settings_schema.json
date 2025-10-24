@@ -1,9 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Import",
+    "theme_name": "Import Theme",
     "theme_version": "1.4.0",
-    "theme_author": "Import theme"
+    "theme_author": "Import theme",
+    "theme_documentation_url": "https:\/\/google.com",
+    "theme_support_url": "https:\/\/google.com\/"
   },
   {
     "name": "Cart",
