@@ -1,1 +1,992 @@
-{"sections":{"d_gallery_LhyGHJ":{"type":"d_gallery","blocks":{"gallery_item_cW3C6D":{"type":"gallery_item","settings":{"color_scheme":"accent","span":"4","image":"shopify:\/\/shop_images\/Untitled_design_2.jpg","image_overlay":0,"text_position":"bottom-left","link":"https:\/\/www.pipekit.co.uk\/collections\/geberit-mapress","heading":"Geberit Mapress","subheading":"","text":"","button_label":"view products"}},"gallery_item_EGHVHL":{"type":"gallery_item","settings":{"color_scheme":"accent","span":"4","image":"shopify:\/\/shop_images\/Philmac-Joiner_2.jpg","image_overlay":0,"text_position":"bottom-left","link":"https:\/\/www.pipekit.co.uk\/collections\/philmac-compression-fittings","heading":"Philmac Compression","subheading":"","text":"","button_label":"VIEW PRODUCTS"}},"gallery_item_Lh7eff":{"type":"gallery_item","settings":{"color_scheme":"invert","span":"4","image":"shopify:\/\/shop_images\/PVC-U-Home-grid_f37200c3-d517-4f16-a3a2-40f398d6535c.jpg","image_overlay":0,"text_position":"bottom-left","link":"https:\/\/www.pipekit.co.uk\/collections\/pvc-u-pressure-plastics","heading":"PVC-U","subheading":"","text":"","button_label":"VIEW PRODUCTS"}},"gallery_item_Hdb4fR":{"type":"gallery_item","settings":{"color_scheme":"invert","span":"4","image":"shopify:\/\/shop_images\/MLCP-Home-Image.jpg","image_overlay":0,"text_position":"bottom-left","link":"shopify:\/\/collections\/mlcp","heading":"MLCP","subheading":"","text":"","button_label":"VIEW PRODUCTS"}},"gallery_item_KP7zwi":{"type":"gallery_item","settings":{"color_scheme":"invert","span":"4","image":"shopify:\/\/shop_images\/AGD-Home-Grid.png","image_overlay":0,"text_position":"bottom-left","link":"https:\/\/www.pipekit.co.uk\/collections\/above-ground-drainage","heading":"Above Ground Drainage","subheading":"","text":"","button_label":"VIEW PRODUCTS"}},"gallery_item_zn7KcA":{"type":"gallery_item","settings":{"color_scheme":"invert","span":"4","image":"shopify:\/\/shop_images\/Metal-Valves-Home-Grid.jpg","image_overlay":0,"text_position":"bottom-left","link":"https:\/\/www.pipekit.co.uk\/collections\/metal-valves","heading":"Metal Valves","subheading":"","text":"","button_label":"VIEW PRODUCTS"}}},"block_order":["gallery_item_cW3C6D","gallery_item_EGHVHL","gallery_item_Lh7eff","gallery_item_Hdb4fR","gallery_item_KP7zwi","gallery_item_zn7KcA"],"custom_css":[],"settings":{"heading":"","subheading":"","layout":"container","stacked_layout":false,"item_height":350,"mobile_item_height":210,"use_box":false,"heading_scale":75,"enlarge_text":false,"button_tier":"secondary"}},"d_collection_list_7gjCmr":{"type":"d_collection-list","blocks":{"collection_PygHfx":{"type":"collection","settings":{"collection":"pvc-u","image":"shopify:\/\/shop_images\/PVC-U-Home.jpg","custom_title":""}},"collection_WfdTNU":{"type":"collection","settings":{"collection":"pe","image":"shopify:\/\/shop_images\/Philmac-Joiner.jpg","custom_title":""}},"collection_Gt3bqF":{"type":"collection","settings":{"collection":"abs","image":"shopify:\/\/shop_images\/PVC-U-Home-2.jpg","custom_title":""}},"collection_bEecfg":{"type":"collection","settings":{"collection":"copper-pressure-metals","image":"shopify:\/\/shop_images\/62001.jpg","custom_title":"Copper"}},"collection_pRVxfr":{"type":"collection","settings":{"collection":"stainless-steel-pressure-metals","image":"shopify:\/\/shop_images\/Stainless-Home-2.jpg","custom_title":"Stainless Steel"}},"collection_QY8UG8":{"type":"collection","settings":{"collection":"plastic-valves","image":"shopify:\/\/shop_images\/Plastic-Valves-Home.jpg","custom_title":""}},"collection_zkRKGz":{"type":"collection","settings":{"collection":"metal-valves","image":"shopify:\/\/shop_images\/Metal-Valves-Home.jpg","custom_title":""}},"collection_BDFzgz":{"type":"collection","settings":{"collection":"above-ground-drainage","image":"shopify:\/\/shop_images\/Above-Ground-Home.jpg","custom_title":""}},"collection_HNNf6K":{"type":"collection","settings":{"collection":"below-ground-drainage","image":"shopify:\/\/shop_images\/Belo-Ground-Home.jpg","custom_title":""}},"collection_yjgqLW":{"type":"collection","settings":{"collection":"tools","image":"shopify:\/\/shop_images\/Tools-Home.jpg","custom_title":""}},"collection_Rmb8ih":{"type":"collection","settings":{"collection":"","custom_title":""}}},"block_order":["collection_PygHfx","collection_WfdTNU","collection_Gt3bqF","collection_bEecfg","collection_pRVxfr","collection_QY8UG8","collection_zkRKGz","collection_BDFzgz","collection_HNNf6K","collection_yjgqLW","collection_Rmb8ih"],"disabled":true,"settings":{"heading":"","subheading":"","columns":5,"section_button_label":""}},"d_images_collage_with_text_bMcymK":{"type":"d_images-collage-with-text","blocks":{"image_bgzXcf":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Georg_Fischer_GF_Brand_Logo_Pipekit_Brands.webp","image_width":18,"coord_x":78,"coord_y":16}},"image_TBzxr8":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/removal.ai__a21195d3-23fb-4e2c-a842-27aecbe45f22-gfps-pvc-u-1-1-1.png","image_width":100,"coord_x":44,"coord_y":70}},"image_YdAjHg":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/FEATURED_BRAND_1.png","image_width":29,"coord_x":17,"coord_y":29}}},"block_order":["image_bgzXcf","image_TBzxr8","image_YdAjHg"],"disabled":true,"custom_css":[],"settings":{"color_scheme":"invert","section_width":100,"collage_width":42,"collage_position":"right","heading":"Welcome to PIPEKIT","heading_scale":105,"subheading":"","text":"<p>Independent Distributor Of Specialist Pipework Systems & Drainage Solutions, Offers Personal Customer Service & Technical Support Built On Experience<\/p>","text_position":"bottom-left","f_button_label":"","f_button_link":"","f_button_tier":"secondary","pattern":"none","pattern_scale":50,"pattern_animation":"none"}},"d_moving_text_9YcV7m":{"type":"d_moving-text","blocks":{"text_BanmWk":{"type":"text","disabled":true,"settings":{"text":"delivered in 2 days","icon":"truck-delivery","custom_icon":"<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"35\" height=\"30\" x=\"0px\" y=\"0px\" viewbox=\"0 0 527.62 10\" style=\"enable-background:new 0 0 527.62 230;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#FFFFFF;}\n<\/style>\n<g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M147.04,49.05c0,3.94-3.23,7.06-7.27,7.06H33.71c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h106.07\n\t\t\tC143.81,42.08,147.04,45.21,147.04,49.05L147.04,49.05z\"><\/path>\n\t\t<path class=\"st0\" d=\"M182.06,96.99c0,3.94-3.23,7.06-7.27,7.06H7.27c-4.04,0-7.27-3.13-7.27-7.06c0-3.94,3.23-7.06,7.27-7.06\n\t\t\tH174.8C178.83,89.92,182.06,93.15,182.06,96.99L182.06,96.99z\"><\/path>\n\t\t<path class=\"st0\" d=\"M116.16,144.92c0,3.94-3.23,7.06-7.27,7.06H42.29c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h66.61\n\t\t\tC112.93,137.86,116.16,141.09,116.16,144.92z\"><\/path>\n\t\t<path class=\"st0\" d=\"M502.89,111.32l-41.78-17.06l-83.26-82.65C376.54,10.5,363.82,0,331.73,0H141.29\n\t\t\tc-0.61,0-12.82,0.3-20.69,14.53h211.03c23.92,0,34.52,6.56,36.33,7.87l69.64,69.03H332.84V48.75c0-4.04-3.23-7.27-7.27-7.27\n\t\t\ts-7.27,3.23-7.27,7.27v57.22h133.92l1.01,1.01l43.6,17.56c4.44,2.12,13.22,7.67,15.54,14.53l1.11,3.33h-10.39v14.53h9.89v22.61\n\t\t\tl-1.01,0.81c-3.13,2.32-9.99,4.84-17.96,6.76l-3.03,0.71l-0.2-3.03c-1.51-22.1-19.98-39.46-42.19-39.46\n\t\t\tc-23.31,0-42.29,18.97-42.29,42.29v2.62H226.47v-2.62c-0.1-23.31-19.07-42.29-42.29-42.29c-21.8,0-40.27,17.06-42.19,38.75\n\t\t\tl-0.3,3.03l-3.03-0.81c-8.07-2.22-12.82-4.64-14.13-7.27l-0.3-0.61v-1.21H109.7v0.71c0,11.1,9.79,18.87,28.96,23.31\n\t\t\tc1.51,0.4,2.93,0.71,4.44,0.91l1.41,0.3l0.5,1.31c6.56,15.95,21.9,26.24,39.16,26.24c16.25,0,30.78-9.08,37.95-23.82l0.71-1.41\n\t\t\th187.11l0.71,1.41c7.17,14.63,21.8,23.82,38.05,23.82s32.19-10.09,38.85-25.63l0.61-1.31l1.31-0.3\n\t\t\tc8.98-1.51,38.15-7.57,38.15-22.3V142.3C527.52,122.92,505.62,112.53,502.89,111.32L502.89,111.32z M184.08,215.57\n\t\t\tc-15.34,0-27.85-12.51-27.85-27.75s12.51-27.85,27.85-27.85s27.75,12.51,27.75,27.85S199.42,215.57,184.08,215.57z M448.6,215.57\n\t\t\tc-15.34,0-27.75-12.51-27.75-27.75s12.41-27.85,27.75-27.85s27.75,12.51,27.75,27.85S463.94,215.57,448.6,215.57z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M216.78,121.61c-18.97-21.9-11-56.52,15.24-68.42c26.44-12.01,56.72,3.84,61.97,32.5\n\t\t\tc4.44,24.22-12.51,47.63-36.94,51.27c-10.5,1.51-20.29-0.5-29.47-5.75c-1.51-0.91-2.22-1.82-2.12-3.63c0.2-3.63,0.1-7.27,0.1-10.5\n\t\t\tc3.94,2.52,7.77,5.55,12.11,7.57c20.89,9.59,45.41-4.95,47.94-27.85c2.22-20.08-14.33-40.07-37.64-38.15\n\t\t\tc-16.95,1.41-30.88,16.35-31.08,33.3c-0.1,8.98,0,17.96,0,26.95C216.78,119.59,216.78,120.3,216.78,121.61L216.78,121.61z\"><\/path>\n\t\t<path class=\"st0\" d=\"M270.77,77.1c7.37,7.97,7.57,22.81,0.5,31.08c-5.05-5.45-9.99-10.9-14.53-15.74\n\t\t\tC261.08,87.7,265.93,82.45,270.77,77.1L270.77,77.1z\"><\/path>\n\t\t<path class=\"st0\" d=\"M236.96,71.96v41.68c-6.46-4.54-9.99-10.6-10.7-17.96C225.16,86.09,228.79,78.21,236.96,71.96L236.96,71.96z\"><\/path>\n\t\t<path class=\"st0\" d=\"M246.85,96.38c5.65,6.16,11.3,12.21,17.06,18.47c-2.12,1.51-5.25,2.52-8.38,3.03c-2.52,0.4-5.15,0.2-7.67,0.1\n\t\t\tc-0.61,0-1.61-1.11-1.61-1.61c-0.1-6.46-0.1-12.92-0.1-19.38C246.35,96.68,246.65,96.48,246.85,96.38L246.85,96.38z\"><\/path>\n\t\t<path class=\"st0\" d=\"M246.25,88.51V68.32c6.26-1.51,12.11-0.2,17.96,2.83C258.16,76.9,252.4,82.55,246.25,88.51z\"><\/path>\n\t<\/g>\n<\/g>\n<\/svg>","link":""}},"text_QGhwhC":{"type":"text","settings":{"text":"spend £250 for free delivery (ex Vat)","icon":"truck-delivery","custom_icon":"<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"35\" height=\"30\" x=\"0px\" y=\"0px\" viewbox=\"0 0 527.62 10\" style=\"enable-background:new 0 0 527.62 230;\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st0{fill:#FFFFFF;}\n<\/style>\n<g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M147.04,49.05c0,3.94-3.23,7.06-7.27,7.06H33.71c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h106.07\n\t\t\tC143.81,42.08,147.04,45.21,147.04,49.05L147.04,49.05z\"><\/path>\n\t\t<path class=\"st0\" d=\"M182.06,96.99c0,3.94-3.23,7.06-7.27,7.06H7.27c-4.04,0-7.27-3.13-7.27-7.06c0-3.94,3.23-7.06,7.27-7.06\n\t\t\tH174.8C178.83,89.92,182.06,93.15,182.06,96.99L182.06,96.99z\"><\/path>\n\t\t<path class=\"st0\" d=\"M116.16,144.92c0,3.94-3.23,7.06-7.27,7.06H42.29c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h66.61\n\t\t\tC112.93,137.86,116.16,141.09,116.16,144.92z\"><\/path>\n\t\t<path class=\"st0\" d=\"M502.89,111.32l-41.78-17.06l-83.26-82.65C376.54,10.5,363.82,0,331.73,0H141.29\n\t\t\tc-0.61,0-12.82,0.3-20.69,14.53h211.03c23.92,0,34.52,6.56,36.33,7.87l69.64,69.03H332.84V48.75c0-4.04-3.23-7.27-7.27-7.27\n\t\t\ts-7.27,3.23-7.27,7.27v57.22h133.92l1.01,1.01l43.6,17.56c4.44,2.12,13.22,7.67,15.54,14.53l1.11,3.33h-10.39v14.53h9.89v22.61\n\t\t\tl-1.01,0.81c-3.13,2.32-9.99,4.84-17.96,6.76l-3.03,0.71l-0.2-3.03c-1.51-22.1-19.98-39.46-42.19-39.46\n\t\t\tc-23.31,0-42.29,18.97-42.29,42.29v2.62H226.47v-2.62c-0.1-23.31-19.07-42.29-42.29-42.29c-21.8,0-40.27,17.06-42.19,38.75\n\t\t\tl-0.3,3.03l-3.03-0.81c-8.07-2.22-12.82-4.64-14.13-7.27l-0.3-0.61v-1.21H109.7v0.71c0,11.1,9.79,18.87,28.96,23.31\n\t\t\tc1.51,0.4,2.93,0.71,4.44,0.91l1.41,0.3l0.5,1.31c6.56,15.95,21.9,26.24,39.16,26.24c16.25,0,30.78-9.08,37.95-23.82l0.71-1.41\n\t\t\th187.11l0.71,1.41c7.17,14.63,21.8,23.82,38.05,23.82s32.19-10.09,38.85-25.63l0.61-1.31l1.31-0.3\n\t\t\tc8.98-1.51,38.15-7.57,38.15-22.3V142.3C527.52,122.92,505.62,112.53,502.89,111.32L502.89,111.32z M184.08,215.57\n\t\t\tc-15.34,0-27.85-12.51-27.85-27.75s12.51-27.85,27.85-27.85s27.75,12.51,27.75,27.85S199.42,215.57,184.08,215.57z M448.6,215.57\n\t\t\tc-15.34,0-27.75-12.51-27.75-27.75s12.41-27.85,27.75-27.85s27.75,12.51,27.75,27.85S463.94,215.57,448.6,215.57z\"><\/path>\n\t<\/g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M216.78,121.61c-18.97-21.9-11-56.52,15.24-68.42c26.44-12.01,56.72,3.84,61.97,32.5\n\t\t\tc4.44,24.22-12.51,47.63-36.94,51.27c-10.5,1.51-20.29-0.5-29.47-5.75c-1.51-0.91-2.22-1.82-2.12-3.63c0.2-3.63,0.1-7.27,0.1-10.5\n\t\t\tc3.94,2.52,7.77,5.55,12.11,7.57c20.89,9.59,45.41-4.95,47.94-27.85c2.22-20.08-14.33-40.07-37.64-38.15\n\t\t\tc-16.95,1.41-30.88,16.35-31.08,33.3c-0.1,8.98,0,17.96,0,26.95C216.78,119.59,216.78,120.3,216.78,121.61L216.78,121.61z\"><\/path>\n\t\t<path class=\"st0\" d=\"M270.77,77.1c7.37,7.97,7.57,22.81,0.5,31.08c-5.05-5.45-9.99-10.9-14.53-15.74\n\t\t\tC261.08,87.7,265.93,82.45,270.77,77.1L270.77,77.1z\"><\/path>\n\t\t<path class=\"st0\" d=\"M236.96,71.96v41.68c-6.46-4.54-9.99-10.6-10.7-17.96C225.16,86.09,228.79,78.21,236.96,71.96L236.96,71.96z\"><\/path>\n\t\t<path class=\"st0\" d=\"M246.85,96.38c5.65,6.16,11.3,12.21,17.06,18.47c-2.12,1.51-5.25,2.52-8.38,3.03c-2.52,0.4-5.15,0.2-7.67,0.1\n\t\t\tc-0.61,0-1.61-1.11-1.61-1.61c-0.1-6.46-0.1-12.92-0.1-19.38C246.35,96.68,246.65,96.48,246.85,96.38L246.85,96.38z\"><\/path>\n\t\t<path class=\"st0\" d=\"M246.25,88.51V68.32c6.26-1.51,12.11-0.2,17.96,2.83C258.16,76.9,252.4,82.55,246.25,88.51z\"><\/path>\n\t<\/g>\n<\/g>\n<\/svg>","link":""}}},"block_order":["text_BanmWk","text_QGhwhC"],"disabled":true,"settings":{"color_scheme":"accent2","text_scale":80,"stop_on_hover":true,"moving_direction":"normal","speed_mult":"2","pattern":"none","pattern_scale":100,"pattern_animation":"none","heading_scale":55}},"d_rich_text_E8mJLU":{"type":"d_rich-text","blocks":{"heading_LQ6N8M":{"type":"heading","settings":{"heading":"Our Brands","heading_scale":120}},"text_hXiH9U":{"type":"text","settings":{"text":"<p>We build strong relationships with our brand partners so we can offer technically leading pressure pipework and drainage solutions.<\/p>","enlarge_text":false}}},"block_order":["heading_LQ6N8M","text_hXiH9U"],"disabled":true,"settings":{"color_scheme":"main","content_width":50,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_rich_text_GENtPe":{"type":"d_rich-text","blocks":{"heading_nxd7Ui":{"type":"heading","settings":{"heading":"Popular Categories","heading_scale":120}},"text_DbRzxm":{"type":"text","settings":{"text":"<p>We offer leading brand plastic pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.<\/p>","enlarge_text":false}},"buttons_WHgTgh":{"type":"buttons","settings":{"info":"","f_button_label":"view all products","f_button_link":"shopify:\/\/collections","f_button_tier":"primary","s_button_label":"","s_button_link":"","s_button_tier":"secondary"}}},"block_order":["heading_nxd7Ui","text_DbRzxm","buttons_WHgTgh"],"disabled":true,"settings":{"color_scheme":"scheme-5c371c5b-c540-4f72-a5eb-449c10d76269","content_width":50,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_featured_collection_with_image_mLNmaR":{"type":"d_featured-collection-with-image","blocks":{"subheading_DGqKRT":{"type":"subheading","disabled":true,"settings":{"subheading":"Subheading"}},"heading_G3rtfw":{"type":"heading","disabled":true,"settings":{"heading":"","heading_scale":100}},"text_URM9nx":{"type":"text","disabled":true,"settings":{"text":"<p>Durapipe incorporates a number of individual market-leading brands, each of which is leading pipework brands such as Superflo ABS, Air-lineXtra, Guarian and Corzan with over 50 years experience<\/p>","enlarge_text":false}},"buttons_w9UVgM":{"type":"buttons","settings":{"info":"","f_button_label":"View Durapipe","f_button_tier":"secondary"}}},"block_order":["subheading_DGqKRT","heading_G3rtfw","text_URM9nx","buttons_w9UVgM"],"disabled":true,"settings":{"heading":"","subheading":"","collection":"durapipe","rows":4,"show_only_products_in_stock":true,"image":"shopify:\/\/shop_images\/Group_4.png","image_size":50,"overlay":0,"image_position":"left","color_scheme":"invert","text_position":"center-center","use_box":false}},"d_rich_text_QpHtQ8":{"type":"d_rich-text","blocks":{"subheading_E7XdbX":{"type":"subheading","settings":{"subheading":"Our Mission"}},"heading_GhLNgK":{"type":"heading","settings":{"heading":"We are specialists in pressure pipework and drainage solutions","heading_scale":80}},"text_hfpmDa":{"type":"text","settings":{"text":"<p>The benefit of being an independent distributor is we are free to supply the best quality products in the industry and build strong relationships with our brand partners. So we can offer technically leading pressure pipework and drainage solutions, which are fully supported by our experienced in-house team of product experts.<\/p>","enlarge_text":false}},"buttons_QaWwP8":{"type":"buttons","settings":{"info":"","f_button_label":"find your product","f_button_link":"","f_button_tier":"primary","s_button_label":"","s_button_link":"","s_button_tier":"secondary"}}},"block_order":["subheading_E7XdbX","heading_GhLNgK","text_hfpmDa","buttons_QaWwP8"],"disabled":true,"settings":{"color_scheme":"invert","content_width":55,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_rich_text_XjrCJi":{"type":"d_rich-text","blocks":{"subheading_He9ycF":{"type":"subheading","settings":{"subheading":"Featured Collection"}},"heading_aiq86t":{"type":"heading","settings":{"heading":"Pressure Metals","heading_scale":120}},"text_4abMjz":{"type":"text","settings":{"text":"<p>We offer leading brand plastic pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.<\/p>","enlarge_text":false}},"buttons_GJ6TYm":{"type":"buttons","settings":{"info":"","f_button_label":"View All","f_button_link":"","f_button_tier":"primary","s_button_label":"","s_button_link":"","s_button_tier":"secondary"}}},"block_order":["subheading_He9ycF","heading_aiq86t","text_4abMjz","buttons_GJ6TYm"],"disabled":true,"settings":{"color_scheme":"main","content_width":50,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_featured_collection_pErTrE":{"type":"d_featured-collection","blocks":{"products_dYDhHL":{"type":"products","settings":{"products_limit":7,"show_only_products_in_stock":false}},"banner_EdVzji":{"type":"banner","settings":{"color_scheme":"","image_overlay":0,"heading":"{{ section.settings.collection.title }}","heading_scale":80,"subheading":"","button":"Shop All","button_tier":"primary"}}},"block_order":["products_dYDhHL","banner_EdVzji"],"disabled":true,"settings":{"heading":"","subheading":"","collection":"pressure-metals","slide_every":"row","slides_per_view":4,"section_button_label":""}},"d_rich_text_dDG8jk":{"type":"d_rich-text","blocks":{"heading_7zBk9r":{"type":"heading","settings":{"heading":"Welcome to PIPEKIT","heading_scale":160}},"text_CG4jEn":{"type":"text","settings":{"text":"<h2>Specialist in Pipework, Fittings, Valves and Prefabrication Solutions<\/h2>","enlarge_text":false}}},"block_order":["heading_7zBk9r","text_CG4jEn"],"disabled":true,"name":"Rich text","settings":{"color_scheme":"scheme-fd1f2a61-ae46-41e6-b732-592fe38c24cd","content_width":100,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_rich_text_rkmcYH":{"type":"d_rich-text","blocks":{"heading_ieHUqp":{"type":"heading","settings":{"heading":"Our Brands","heading_scale":120}}},"block_order":["heading_ieHUqp"],"settings":{"color_scheme":"main","content_width":100,"text_align":"center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_logo_list_yJJLEe":{"type":"d_logo-list","blocks":{"logo_8AwedE":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/albion_logo_image.webp","link":"shopify:\/\/collections\/albion"}},"logo_xwQqPR":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/geberit_logo_image.webp","link":"shopify:\/\/collections\/geberit"}},"logo_eq9JUB":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/durapipe_logo_image_1.webp","link":"shopify:\/\/collections\/durapipe"}},"logo_rh487z":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/gf_logo_image.webp","link":"shopify:\/\/collections\/georg-fischer"}},"logo_BMgPEh":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/philmac_logo_image.webp","link":"shopify:\/\/collections\/philmac"}},"logo_eQExzg":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/Uponor-Logo.webp","link":"shopify:\/\/collections\/uponor"}},"logo_CiVwjc":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/floplast_04980a38535a3c8bc2443216075b6381.jpg","link":"shopify:\/\/collections\/floplast"}},"logo_edkx3h":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/vulcathene_logo_image.webp","link":"shopify:\/\/collections\/vulcathene"}},"logo_wKiN4A":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/flamco_logo_image.webp","link":"shopify:\/\/collections\/flamco"}},"logo_Xtbg3D":{"type":"logo","settings":{"image":"shopify:\/\/shop_images\/lp_logo_image.webp","link":"shopify:\/\/collections\/tp"}}},"block_order":["logo_8AwedE","logo_xwQqPR","logo_eq9JUB","logo_rh487z","logo_BMgPEh","logo_eQExzg","logo_CiVwjc","logo_edkx3h","logo_wKiN4A","logo_Xtbg3D"],"settings":{"heading":"","subheading":"","columns":5,"logo_height":70,"enable_grayscale_hover":false,"section_button_label":"view all brands","section_button_url":"shopify:\/\/pages\/brands"}},"d_video_popup_with_text_TPHLzx":{"type":"d_video-popup-with-text","blocks":{"heading_FVmUid":{"type":"heading","settings":{"heading":"About PIPEKIT","heading_scale":120}},"subheading_JyGazt":{"type":"subheading","settings":{"subheading":"Specialists in pipework, fittings, valves and prefabrication solutions"}},"text_3HAXeC":{"type":"text","settings":{"text":"<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.<\/p>","enlarge_text":false}},"buttons_UMxVrt":{"type":"buttons","settings":{"info":"","f_button_label":"Read More","f_button_link":"shopify:\/\/pages\/about-us","f_button_tier":"primary","s_button_label":"","s_button_link":"","s_button_tier":"secondary"}}},"block_order":["heading_FVmUid","subheading_JyGazt","text_3HAXeC","buttons_UMxVrt"],"settings":{"color_scheme":"accent2","section_layout":"full","embedded_video":"https:\/\/www.youtube.com\/watch?v=yyLNDyebfno","autoplay":true,"image":"shopify:\/\/shop_images\/Team_Photo_45f25e0e-82d8-4eb5-9483-f8436e7feaff.jpg","image_size":"450px","mobile_image_size":"origin","image_width":50,"image_position":"left","text_position":"center-center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_image_with_text_ntM7XV":{"type":"d_image-with-text","blocks":{"heading_pA9yji":{"type":"heading","settings":{"heading":"About PIPEKIT","heading_scale":120}},"text_gVHF8C":{"type":"text","settings":{"text":"<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.<\/p>","enlarge_text":false}},"buttons_zQQzci":{"type":"buttons","settings":{"info":"","f_button_label":"Read More","f_button_link":"shopify:\/\/pages\/about-us","f_button_tier":"primary","s_button_label":"","s_button_link":"","s_button_tier":"secondary"}}},"block_order":["heading_pA9yji","text_gVHF8C","buttons_zQQzci"],"disabled":true,"settings":{"color_scheme":"invert","section_layout":"full","image":"shopify:\/\/shop_images\/Pipekit-Team-Image-2023.webp","image_size":"450px","mobile_image_size":"origin","image_width":50,"image_position":"left","text_position":"center-center","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_image_with_text_HgP67Q":{"type":"d_image-with-text","blocks":{"heading_jgJmgD":{"type":"heading","settings":{"heading":"About Us","heading_scale":120}},"text_zaxDWa":{"type":"text","settings":{"text":"<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.<\/p>","enlarge_text":false}},"buttons_zNaat4":{"type":"buttons","settings":{"info":"","f_button_label":"Read more","f_button_link":"shopify:\/\/pages\/about-us","f_button_tier":"primary","s_button_label":"","s_button_link":"shopify:\/\/pages\/about-us","s_button_tier":"primary"}}},"block_order":["heading_jgJmgD","text_zaxDWa","buttons_zNaat4"],"disabled":true,"settings":{"color_scheme":"main","section_layout":"full","image":"shopify:\/\/shop_images\/Pipekit_Team.jpg","image_size":"450px","mobile_image_size":"origin","image_width":70,"image_position":"left","text_position":"center-left","pattern":"none","pattern_scale":100,"pattern_animation":"none"}},"d_image_columns_4VJiAc":{"type":"d_image-columns","blocks":{"column_mGnUeE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/STFC-Foundation-New-primary_9a258d20-a5d2-4616-a6f8-81bd03a98bf3.svg","heading":"","subheading":"","text":"","link":"https:\/\/www.foundationstfc.co.uk\/","button_label":""}},"column_NFci6M":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/LD-Logo-01-min_1.svg","heading":"","subheading":"","text":"","link":"https:\/\/www.lingendavies.co.uk\/","button_label":""}}},"block_order":["column_mGnUeE","column_NFci6M"],"disabled":true,"settings":{"heading":"","subheading":"","heading_scale":70,"enlarge_text":false,"image_size":"origin","columns":2,"align_blocks_height":true,"button_tier":"primary"}},"d_newsletter_QtQFth":{"type":"d_newsletter","settings":{"color_scheme":"invert","heading":"Newsletter sign-up","subheading":"Get the latest offers, news and advice from Pipekit","pattern":"none","pattern_scale":90,"pattern_animation":"none"}}},"order":["d_gallery_LhyGHJ","d_collection_list_7gjCmr","d_images_collage_with_text_bMcymK","d_moving_text_9YcV7m","d_rich_text_E8mJLU","d_rich_text_GENtPe","d_featured_collection_with_image_mLNmaR","d_rich_text_QpHtQ8","d_rich_text_XjrCJi","d_featured_collection_pErTrE","d_rich_text_dDG8jk","d_rich_text_rkmcYH","d_logo_list_yJJLEe","d_video_popup_with_text_TPHLzx","d_image_with_text_ntM7XV","d_image_with_text_HgP67Q","d_image_columns_4VJiAc","d_newsletter_QtQFth"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "d_gallery_LhyGHJ": {
+      "type": "d_gallery",
+      "blocks": {
+        "gallery_item_cW3C6D": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "accent",
+            "span": "4",
+            "image": "shopify://shop_images/Untitled_design_2.jpg",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "https://www.pipekit.co.uk/collections/geberit-mapress",
+            "heading": "Geberit Mapress",
+            "subheading": "",
+            "text": "",
+            "button_label": "view products"
+          }
+        },
+        "gallery_item_EGHVHL": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "accent",
+            "span": "4",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "https://www.pipekit.co.uk/collections/philmac-compression-fittings",
+            "heading": "Philmac Compression",
+            "subheading": "",
+            "text": "",
+            "button_label": "VIEW PRODUCTS"
+          }
+        },
+        "gallery_item_Lh7eff": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "invert",
+            "span": "4",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "https://www.pipekit.co.uk/collections/pvc-u-pressure-plastics",
+            "heading": "PVC-U",
+            "subheading": "",
+            "text": "",
+            "button_label": "VIEW PRODUCTS"
+          }
+        },
+        "gallery_item_Hdb4fR": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "invert",
+            "span": "4",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "shopify://collections/mlcp",
+            "heading": "MLCP",
+            "subheading": "",
+            "text": "",
+            "button_label": "VIEW PRODUCTS"
+          }
+        },
+        "gallery_item_KP7zwi": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "invert",
+            "span": "4",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "https://www.pipekit.co.uk/collections/above-ground-drainage",
+            "heading": "Above Ground Drainage",
+            "subheading": "",
+            "text": "",
+            "button_label": "VIEW PRODUCTS"
+          }
+        },
+        "gallery_item_zn7KcA": {
+          "type": "gallery_item",
+          "settings": {
+            "color_scheme": "invert",
+            "span": "4",
+            "image_overlay": 0,
+            "text_position": "bottom-left",
+            "link": "https://www.pipekit.co.uk/collections/metal-valves",
+            "heading": "Metal Valves",
+            "subheading": "",
+            "text": "",
+            "button_label": "VIEW PRODUCTS"
+          }
+        }
+      },
+      "block_order": [
+        "gallery_item_cW3C6D",
+        "gallery_item_EGHVHL",
+        "gallery_item_Lh7eff",
+        "gallery_item_Hdb4fR",
+        "gallery_item_KP7zwi",
+        "gallery_item_zn7KcA"
+      ],
+      "custom_css": [],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "layout": "container",
+        "stacked_layout": false,
+        "item_height": 350,
+        "mobile_item_height": 210,
+        "use_box": false,
+        "heading_scale": 75,
+        "enlarge_text": false,
+        "button_tier": "secondary"
+      }
+    },
+    "d_collection_list_7gjCmr": {
+      "type": "d_collection-list",
+      "blocks": {
+        "collection_PygHfx": {
+          "type": "collection",
+          "settings": {
+            "collection": "pvc-u",
+            "image": "shopify://shop_images/PVC-U-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_WfdTNU": {
+          "type": "collection",
+          "settings": {
+            "collection": "pe",
+            "image": "shopify://shop_images/Philmac-Joiner.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_Gt3bqF": {
+          "type": "collection",
+          "settings": {
+            "collection": "abs",
+            "image": "shopify://shop_images/PVC-U-Home-2.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_bEecfg": {
+          "type": "collection",
+          "settings": {
+            "collection": "copper-pressure-metals",
+            "image": "shopify://shop_images/62001.jpg",
+            "custom_title": "Copper"
+          }
+        },
+        "collection_pRVxfr": {
+          "type": "collection",
+          "settings": {
+            "collection": "stainless-steel-pressure-metals",
+            "image": "shopify://shop_images/Stainless-Home-2.jpg",
+            "custom_title": "Stainless Steel"
+          }
+        },
+        "collection_QY8UG8": {
+          "type": "collection",
+          "settings": {
+            "collection": "plastic-valves",
+            "image": "shopify://shop_images/Plastic-Valves-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_zkRKGz": {
+          "type": "collection",
+          "settings": {
+            "collection": "metal-valves",
+            "image": "shopify://shop_images/Metal-Valves-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_BDFzgz": {
+          "type": "collection",
+          "settings": {
+            "collection": "above-ground-drainage",
+            "image": "shopify://shop_images/Above-Ground-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_HNNf6K": {
+          "type": "collection",
+          "settings": {
+            "collection": "below-ground-drainage",
+            "image": "shopify://shop_images/Belo-Ground-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_yjgqLW": {
+          "type": "collection",
+          "settings": {
+            "collection": "tools",
+            "image": "shopify://shop_images/Tools-Home.jpg",
+            "custom_title": ""
+          }
+        },
+        "collection_Rmb8ih": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "custom_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_PygHfx",
+        "collection_WfdTNU",
+        "collection_Gt3bqF",
+        "collection_bEecfg",
+        "collection_pRVxfr",
+        "collection_QY8UG8",
+        "collection_zkRKGz",
+        "collection_BDFzgz",
+        "collection_HNNf6K",
+        "collection_yjgqLW",
+        "collection_Rmb8ih"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "columns": 5,
+        "section_button_label": ""
+      }
+    },
+    "d_images_collage_with_text_bMcymK": {
+      "type": "d_images-collage-with-text",
+      "blocks": {
+        "image_bgzXcf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Georg_Fischer_GF_Brand_Logo_Pipekit_Brands.webp",
+            "image_width": 18,
+            "coord_x": 78,
+            "coord_y": 16
+          }
+        },
+        "image_TBzxr8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/removal.ai__a21195d3-23fb-4e2c-a842-27aecbe45f22-gfps-pvc-u-1-1-1.png",
+            "image_width": 100,
+            "coord_x": 44,
+            "coord_y": 70
+          }
+        },
+        "image_YdAjHg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/FEATURED_BRAND_1.png",
+            "image_width": 29,
+            "coord_x": 17,
+            "coord_y": 29
+          }
+        }
+      },
+      "block_order": [
+        "image_bgzXcf",
+        "image_TBzxr8",
+        "image_YdAjHg"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "invert",
+        "section_width": 100,
+        "collage_width": 42,
+        "collage_position": "right",
+        "heading": "Welcome to PIPEKIT",
+        "heading_scale": 105,
+        "subheading": "",
+        "text": "<p>Independent Distributor Of Specialist Pipework Systems & Drainage Solutions, Offers Personal Customer Service & Technical Support Built On Experience</p>",
+        "text_position": "bottom-left",
+        "f_button_label": "",
+        "f_button_link": "",
+        "f_button_tier": "secondary",
+        "pattern": "none",
+        "pattern_scale": 50,
+        "pattern_animation": "none"
+      }
+    },
+    "d_moving_text_9YcV7m": {
+      "type": "d_moving-text",
+      "blocks": {
+        "text_BanmWk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "delivered in 2 days",
+            "icon": "truck-delivery",
+            "custom_icon": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"30\" x=\"0px\" y=\"0px\" viewbox=\"0 0 527.62 10\" style=\"enable-background:new 0 0 527.62 230;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#FFFFFF;}\n</style>\n<g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M147.04,49.05c0,3.94-3.23,7.06-7.27,7.06H33.71c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h106.07\n\t\t\tC143.81,42.08,147.04,45.21,147.04,49.05L147.04,49.05z\"></path>\n\t\t<path class=\"st0\" d=\"M182.06,96.99c0,3.94-3.23,7.06-7.27,7.06H7.27c-4.04,0-7.27-3.13-7.27-7.06c0-3.94,3.23-7.06,7.27-7.06\n\t\t\tH174.8C178.83,89.92,182.06,93.15,182.06,96.99L182.06,96.99z\"></path>\n\t\t<path class=\"st0\" d=\"M116.16,144.92c0,3.94-3.23,7.06-7.27,7.06H42.29c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h66.61\n\t\t\tC112.93,137.86,116.16,141.09,116.16,144.92z\"></path>\n\t\t<path class=\"st0\" d=\"M502.89,111.32l-41.78-17.06l-83.26-82.65C376.54,10.5,363.82,0,331.73,0H141.29\n\t\t\tc-0.61,0-12.82,0.3-20.69,14.53h211.03c23.92,0,34.52,6.56,36.33,7.87l69.64,69.03H332.84V48.75c0-4.04-3.23-7.27-7.27-7.27\n\t\t\ts-7.27,3.23-7.27,7.27v57.22h133.92l1.01,1.01l43.6,17.56c4.44,2.12,13.22,7.67,15.54,14.53l1.11,3.33h-10.39v14.53h9.89v22.61\n\t\t\tl-1.01,0.81c-3.13,2.32-9.99,4.84-17.96,6.76l-3.03,0.71l-0.2-3.03c-1.51-22.1-19.98-39.46-42.19-39.46\n\t\t\tc-23.31,0-42.29,18.97-42.29,42.29v2.62H226.47v-2.62c-0.1-23.31-19.07-42.29-42.29-42.29c-21.8,0-40.27,17.06-42.19,38.75\n\t\t\tl-0.3,3.03l-3.03-0.81c-8.07-2.22-12.82-4.64-14.13-7.27l-0.3-0.61v-1.21H109.7v0.71c0,11.1,9.79,18.87,28.96,23.31\n\t\t\tc1.51,0.4,2.93,0.71,4.44,0.91l1.41,0.3l0.5,1.31c6.56,15.95,21.9,26.24,39.16,26.24c16.25,0,30.78-9.08,37.95-23.82l0.71-1.41\n\t\t\th187.11l0.71,1.41c7.17,14.63,21.8,23.82,38.05,23.82s32.19-10.09,38.85-25.63l0.61-1.31l1.31-0.3\n\t\t\tc8.98-1.51,38.15-7.57,38.15-22.3V142.3C527.52,122.92,505.62,112.53,502.89,111.32L502.89,111.32z M184.08,215.57\n\t\t\tc-15.34,0-27.85-12.51-27.85-27.75s12.51-27.85,27.85-27.85s27.75,12.51,27.75,27.85S199.42,215.57,184.08,215.57z M448.6,215.57\n\t\t\tc-15.34,0-27.75-12.51-27.75-27.75s12.41-27.85,27.75-27.85s27.75,12.51,27.75,27.85S463.94,215.57,448.6,215.57z\"></path>\n\t</g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M216.78,121.61c-18.97-21.9-11-56.52,15.24-68.42c26.44-12.01,56.72,3.84,61.97,32.5\n\t\t\tc4.44,24.22-12.51,47.63-36.94,51.27c-10.5,1.51-20.29-0.5-29.47-5.75c-1.51-0.91-2.22-1.82-2.12-3.63c0.2-3.63,0.1-7.27,0.1-10.5\n\t\t\tc3.94,2.52,7.77,5.55,12.11,7.57c20.89,9.59,45.41-4.95,47.94-27.85c2.22-20.08-14.33-40.07-37.64-38.15\n\t\t\tc-16.95,1.41-30.88,16.35-31.08,33.3c-0.1,8.98,0,17.96,0,26.95C216.78,119.59,216.78,120.3,216.78,121.61L216.78,121.61z\"></path>\n\t\t<path class=\"st0\" d=\"M270.77,77.1c7.37,7.97,7.57,22.81,0.5,31.08c-5.05-5.45-9.99-10.9-14.53-15.74\n\t\t\tC261.08,87.7,265.93,82.45,270.77,77.1L270.77,77.1z\"></path>\n\t\t<path class=\"st0\" d=\"M236.96,71.96v41.68c-6.46-4.54-9.99-10.6-10.7-17.96C225.16,86.09,228.79,78.21,236.96,71.96L236.96,71.96z\"></path>\n\t\t<path class=\"st0\" d=\"M246.85,96.38c5.65,6.16,11.3,12.21,17.06,18.47c-2.12,1.51-5.25,2.52-8.38,3.03c-2.52,0.4-5.15,0.2-7.67,0.1\n\t\t\tc-0.61,0-1.61-1.11-1.61-1.61c-0.1-6.46-0.1-12.92-0.1-19.38C246.35,96.68,246.65,96.48,246.85,96.38L246.85,96.38z\"></path>\n\t\t<path class=\"st0\" d=\"M246.25,88.51V68.32c6.26-1.51,12.11-0.2,17.96,2.83C258.16,76.9,252.4,82.55,246.25,88.51z\"></path>\n\t</g>\n</g>\n</svg>",
+            "link": ""
+          }
+        },
+        "text_QGhwhC": {
+          "type": "text",
+          "settings": {
+            "text": "spend £250 for free delivery (ex Vat)",
+            "icon": "truck-delivery",
+            "custom_icon": "<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" width=\"35\" height=\"30\" x=\"0px\" y=\"0px\" viewbox=\"0 0 527.62 10\" style=\"enable-background:new 0 0 527.62 230;\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" xml:space=\"preserve\">\n<style type=\"text/css\">\n\t.st0{fill:#FFFFFF;}\n</style>\n<g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M147.04,49.05c0,3.94-3.23,7.06-7.27,7.06H33.71c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h106.07\n\t\t\tC143.81,42.08,147.04,45.21,147.04,49.05L147.04,49.05z\"></path>\n\t\t<path class=\"st0\" d=\"M182.06,96.99c0,3.94-3.23,7.06-7.27,7.06H7.27c-4.04,0-7.27-3.13-7.27-7.06c0-3.94,3.23-7.06,7.27-7.06\n\t\t\tH174.8C178.83,89.92,182.06,93.15,182.06,96.99L182.06,96.99z\"></path>\n\t\t<path class=\"st0\" d=\"M116.16,144.92c0,3.94-3.23,7.06-7.27,7.06H42.29c-4.04,0-7.27-3.13-7.27-7.06s3.23-7.06,7.27-7.06h66.61\n\t\t\tC112.93,137.86,116.16,141.09,116.16,144.92z\"></path>\n\t\t<path class=\"st0\" d=\"M502.89,111.32l-41.78-17.06l-83.26-82.65C376.54,10.5,363.82,0,331.73,0H141.29\n\t\t\tc-0.61,0-12.82,0.3-20.69,14.53h211.03c23.92,0,34.52,6.56,36.33,7.87l69.64,69.03H332.84V48.75c0-4.04-3.23-7.27-7.27-7.27\n\t\t\ts-7.27,3.23-7.27,7.27v57.22h133.92l1.01,1.01l43.6,17.56c4.44,2.12,13.22,7.67,15.54,14.53l1.11,3.33h-10.39v14.53h9.89v22.61\n\t\t\tl-1.01,0.81c-3.13,2.32-9.99,4.84-17.96,6.76l-3.03,0.71l-0.2-3.03c-1.51-22.1-19.98-39.46-42.19-39.46\n\t\t\tc-23.31,0-42.29,18.97-42.29,42.29v2.62H226.47v-2.62c-0.1-23.31-19.07-42.29-42.29-42.29c-21.8,0-40.27,17.06-42.19,38.75\n\t\t\tl-0.3,3.03l-3.03-0.81c-8.07-2.22-12.82-4.64-14.13-7.27l-0.3-0.61v-1.21H109.7v0.71c0,11.1,9.79,18.87,28.96,23.31\n\t\t\tc1.51,0.4,2.93,0.71,4.44,0.91l1.41,0.3l0.5,1.31c6.56,15.95,21.9,26.24,39.16,26.24c16.25,0,30.78-9.08,37.95-23.82l0.71-1.41\n\t\t\th187.11l0.71,1.41c7.17,14.63,21.8,23.82,38.05,23.82s32.19-10.09,38.85-25.63l0.61-1.31l1.31-0.3\n\t\t\tc8.98-1.51,38.15-7.57,38.15-22.3V142.3C527.52,122.92,505.62,112.53,502.89,111.32L502.89,111.32z M184.08,215.57\n\t\t\tc-15.34,0-27.85-12.51-27.85-27.75s12.51-27.85,27.85-27.85s27.75,12.51,27.75,27.85S199.42,215.57,184.08,215.57z M448.6,215.57\n\t\t\tc-15.34,0-27.75-12.51-27.75-27.75s12.41-27.85,27.75-27.85s27.75,12.51,27.75,27.85S463.94,215.57,448.6,215.57z\"></path>\n\t</g>\n\t<g>\n\t\t<path class=\"st0\" d=\"M216.78,121.61c-18.97-21.9-11-56.52,15.24-68.42c26.44-12.01,56.72,3.84,61.97,32.5\n\t\t\tc4.44,24.22-12.51,47.63-36.94,51.27c-10.5,1.51-20.29-0.5-29.47-5.75c-1.51-0.91-2.22-1.82-2.12-3.63c0.2-3.63,0.1-7.27,0.1-10.5\n\t\t\tc3.94,2.52,7.77,5.55,12.11,7.57c20.89,9.59,45.41-4.95,47.94-27.85c2.22-20.08-14.33-40.07-37.64-38.15\n\t\t\tc-16.95,1.41-30.88,16.35-31.08,33.3c-0.1,8.98,0,17.96,0,26.95C216.78,119.59,216.78,120.3,216.78,121.61L216.78,121.61z\"></path>\n\t\t<path class=\"st0\" d=\"M270.77,77.1c7.37,7.97,7.57,22.81,0.5,31.08c-5.05-5.45-9.99-10.9-14.53-15.74\n\t\t\tC261.08,87.7,265.93,82.45,270.77,77.1L270.77,77.1z\"></path>\n\t\t<path class=\"st0\" d=\"M236.96,71.96v41.68c-6.46-4.54-9.99-10.6-10.7-17.96C225.16,86.09,228.79,78.21,236.96,71.96L236.96,71.96z\"></path>\n\t\t<path class=\"st0\" d=\"M246.85,96.38c5.65,6.16,11.3,12.21,17.06,18.47c-2.12,1.51-5.25,2.52-8.38,3.03c-2.52,0.4-5.15,0.2-7.67,0.1\n\t\t\tc-0.61,0-1.61-1.11-1.61-1.61c-0.1-6.46-0.1-12.92-0.1-19.38C246.35,96.68,246.65,96.48,246.85,96.38L246.85,96.38z\"></path>\n\t\t<path class=\"st0\" d=\"M246.25,88.51V68.32c6.26-1.51,12.11-0.2,17.96,2.83C258.16,76.9,252.4,82.55,246.25,88.51z\"></path>\n\t</g>\n</g>\n</svg>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_BanmWk",
+        "text_QGhwhC"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "accent2",
+        "text_scale": 80,
+        "stop_on_hover": true,
+        "moving_direction": "normal",
+        "speed_mult": "2",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none",
+        "heading_scale": 55
+      }
+    },
+    "d_rich_text_E8mJLU": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_LQ6N8M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Brands",
+            "heading_scale": 120
+          }
+        },
+        "text_hXiH9U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We build strong relationships with our brand partners so we can offer technically leading pressure pipework and drainage solutions.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LQ6N8M",
+        "text_hXiH9U"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 50,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_rich_text_GENtPe": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_nxd7Ui": {
+          "type": "heading",
+          "settings": {
+            "heading": "Popular Categories",
+            "heading_scale": 120
+          }
+        },
+        "text_DbRzxm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer leading brand plastic pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_WHgTgh": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "view all products",
+            "f_button_link": "shopify://collections",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nxd7Ui",
+        "text_DbRzxm",
+        "buttons_WHgTgh"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-5c371c5b-c540-4f72-a5eb-449c10d76269",
+        "content_width": 50,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_featured_collection_with_image_mLNmaR": {
+      "type": "d_featured-collection-with-image",
+      "blocks": {
+        "subheading_DGqKRT": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "heading_G3rtfw": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_scale": 100
+          }
+        },
+        "text_URM9nx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Durapipe incorporates a number of individual market-leading brands, each of which is leading pipework brands such as Superflo ABS, Air-lineXtra, Guarian and Corzan with over 50 years experience</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_w9UVgM": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "View Durapipe",
+            "f_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DGqKRT",
+        "heading_G3rtfw",
+        "text_URM9nx",
+        "buttons_w9UVgM"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "collection": "durapipe",
+        "rows": 4,
+        "show_only_products_in_stock": true,
+        "image": "shopify://shop_images/Group_4.png",
+        "image_size": 50,
+        "overlay": 0,
+        "image_position": "left",
+        "color_scheme": "invert",
+        "text_position": "center-center",
+        "use_box": false
+      }
+    },
+    "d_rich_text_QpHtQ8": {
+      "type": "d_rich-text",
+      "blocks": {
+        "subheading_E7XdbX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Mission"
+          }
+        },
+        "heading_GhLNgK": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are specialists in pressure pipework and drainage solutions",
+            "heading_scale": 80
+          }
+        },
+        "text_hfpmDa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The benefit of being an independent distributor is we are free to supply the best quality products in the industry and build strong relationships with our brand partners. So we can offer technically leading pressure pipework and drainage solutions, which are fully supported by our experienced in-house team of product experts.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_QaWwP8": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "find your product",
+            "f_button_link": "",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_E7XdbX",
+        "heading_GhLNgK",
+        "text_hfpmDa",
+        "buttons_QaWwP8"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "invert",
+        "content_width": 55,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_rich_text_XjrCJi": {
+      "type": "d_rich-text",
+      "blocks": {
+        "subheading_He9ycF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Featured Collection"
+          }
+        },
+        "heading_aiq86t": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pressure Metals",
+            "heading_scale": 120
+          }
+        },
+        "text_4abMjz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We offer leading brand plastic pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_GJ6TYm": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "View All",
+            "f_button_link": "",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_He9ycF",
+        "heading_aiq86t",
+        "text_4abMjz",
+        "buttons_GJ6TYm"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 50,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_featured_collection_pErTrE": {
+      "type": "d_featured-collection",
+      "blocks": {
+        "products_dYDhHL": {
+          "type": "products",
+          "settings": {
+            "products_limit": 7,
+            "show_only_products_in_stock": false
+          }
+        },
+        "banner_EdVzji": {
+          "type": "banner",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay": 0,
+            "heading": "{{ section.settings.collection.title }}",
+            "heading_scale": 80,
+            "subheading": "",
+            "button": "Shop All",
+            "button_tier": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "products_dYDhHL",
+        "banner_EdVzji"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "collection": "pressure-metals",
+        "slide_every": "row",
+        "slides_per_view": 4,
+        "section_button_label": ""
+      }
+    },
+    "d_rich_text_dDG8jk": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_7zBk9r": {
+          "type": "heading",
+          "settings": {
+            "heading": "Welcome to PIPEKIT",
+            "heading_scale": 160
+          }
+        },
+        "text_CG4jEn": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Specialist in Pipework, Fittings, Valves and Prefabrication Solutions</h2>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7zBk9r",
+        "text_CG4jEn"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "color_scheme": "scheme-fd1f2a61-ae46-41e6-b732-592fe38c24cd",
+        "content_width": 100,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_rich_text_rkmcYH": {
+      "type": "d_rich-text",
+      "blocks": {
+        "heading_ieHUqp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Brands",
+            "heading_scale": 120
+          }
+        }
+      },
+      "block_order": [
+        "heading_ieHUqp"
+      ],
+      "settings": {
+        "color_scheme": "main",
+        "content_width": 100,
+        "text_align": "center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_logo_list_yJJLEe": {
+      "type": "d_logo-list",
+      "blocks": {
+        "logo_8AwedE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/albion_logo_image.webp",
+            "link": "shopify://collections/albion"
+          }
+        },
+        "logo_xwQqPR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/geberit_logo_image.webp",
+            "link": "shopify://collections/geberit"
+          }
+        },
+        "logo_eq9JUB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/durapipe_logo_image_1.webp",
+            "link": "shopify://collections/durapipe"
+          }
+        },
+        "logo_rh487z": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/gf_logo_image.webp",
+            "link": "shopify://collections/georg-fischer"
+          }
+        },
+        "logo_BMgPEh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/philmac_logo_image.webp",
+            "link": "shopify://collections/philmac"
+          }
+        },
+        "logo_eQExzg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Uponor-Logo.webp",
+            "link": "shopify://collections/uponor"
+          }
+        },
+        "logo_CiVwjc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/floplast_04980a38535a3c8bc2443216075b6381.jpg",
+            "link": "shopify://collections/floplast"
+          }
+        },
+        "logo_edkx3h": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/vulcathene_logo_image.webp",
+            "link": "shopify://collections/vulcathene"
+          }
+        },
+        "logo_wKiN4A": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/flamco_logo_image.webp",
+            "link": "shopify://collections/flamco"
+          }
+        },
+        "logo_Xtbg3D": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/lp_logo_image.webp",
+            "link": "shopify://collections/tp"
+          }
+        }
+      },
+      "block_order": [
+        "logo_8AwedE",
+        "logo_xwQqPR",
+        "logo_eq9JUB",
+        "logo_rh487z",
+        "logo_BMgPEh",
+        "logo_eQExzg",
+        "logo_CiVwjc",
+        "logo_edkx3h",
+        "logo_wKiN4A",
+        "logo_Xtbg3D"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "columns": 5,
+        "logo_height": 70,
+        "enable_grayscale_hover": false,
+        "section_button_label": "view all brands",
+        "section_button_url": "shopify://pages/brands"
+      }
+    },
+    "d_video_popup_with_text_TPHLzx": {
+      "type": "d_video-popup-with-text",
+      "blocks": {
+        "heading_FVmUid": {
+          "type": "heading",
+          "settings": {
+            "heading": "About PIPEKIT",
+            "heading_scale": 120
+          }
+        },
+        "subheading_JyGazt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Specialists in pipework, fittings, valves and prefabrication solutions"
+          }
+        },
+        "text_3HAXeC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_UMxVrt": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "Read More",
+            "f_button_link": "shopify://pages/about-us",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FVmUid",
+        "subheading_JyGazt",
+        "text_3HAXeC",
+        "buttons_UMxVrt"
+      ],
+      "settings": {
+        "color_scheme": "accent2",
+        "section_layout": "full",
+        "embedded_video": "https://www.youtube.com/watch?v=yyLNDyebfno",
+        "autoplay": true,
+        "image": "shopify://shop_images/Team_Photo_45f25e0e-82d8-4eb5-9483-f8436e7feaff.jpg",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "center-center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_ntM7XV": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_pA9yji": {
+          "type": "heading",
+          "settings": {
+            "heading": "About PIPEKIT",
+            "heading_scale": 120
+          }
+        },
+        "text_gVHF8C": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_zQQzci": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "Read More",
+            "f_button_link": "shopify://pages/about-us",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "",
+            "s_button_tier": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pA9yji",
+        "text_gVHF8C",
+        "buttons_zQQzci"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "invert",
+        "heading_tag": "h2",
+        "section_layout": "full",
+        "image": "shopify://shop_images/Pipekit-Team-Image-2023.webp",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 50,
+        "image_position": "left",
+        "text_position": "center-center",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_with_text_HgP67Q": {
+      "type": "d_image-with-text",
+      "blocks": {
+        "heading_jgJmgD": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Us",
+            "heading_scale": 120
+          }
+        },
+        "text_zaxDWa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pipekit is an independent, family-owned, pipework and drainage distributor based in Shrewsbury, Shropshire. Founded by Martyn Rowlands, Pipekit offers leading brand pipework and drainage products supported by expert advice and superior customer service that comes with working with a specialist independent distributor.</p>",
+            "enlarge_text": false
+          }
+        },
+        "buttons_zNaat4": {
+          "type": "buttons",
+          "settings": {
+            "info": "",
+            "f_button_label": "Read more",
+            "f_button_link": "shopify://pages/about-us",
+            "f_button_tier": "primary",
+            "s_button_label": "",
+            "s_button_link": "shopify://pages/about-us",
+            "s_button_tier": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jgJmgD",
+        "text_zaxDWa",
+        "buttons_zNaat4"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "main",
+        "heading_tag": "h2",
+        "section_layout": "full",
+        "image": "shopify://shop_images/Pipekit_Team.jpg",
+        "image_size": "450px",
+        "mobile_image_size": "origin",
+        "image_width": 70,
+        "image_position": "left",
+        "text_position": "center-left",
+        "pattern": "none",
+        "pattern_scale": 100,
+        "pattern_animation": "none"
+      }
+    },
+    "d_image_columns_4VJiAc": {
+      "type": "d_image-columns",
+      "blocks": {
+        "column_mGnUeE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/STFC-Foundation-New-primary_9a258d20-a5d2-4616-a6f8-81bd03a98bf3.svg",
+            "heading": "",
+            "subheading": "",
+            "text": "",
+            "link": "https://www.foundationstfc.co.uk/",
+            "button_label": ""
+          }
+        },
+        "column_NFci6M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LD-Logo-01-min_1.svg",
+            "heading": "",
+            "subheading": "",
+            "text": "",
+            "link": "https://www.lingendavies.co.uk/",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mGnUeE",
+        "column_NFci6M"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "heading_scale": 70,
+        "enlarge_text": false,
+        "image_size": "origin",
+        "columns": 2,
+        "align_blocks_height": true,
+        "button_tier": "primary"
+      }
+    },
+    "d_newsletter_QtQFth": {
+      "type": "d_newsletter",
+      "settings": {
+        "color_scheme": "invert",
+        "heading": "Newsletter sign-up",
+        "subheading": "Get the latest offers, news and advice from Pipekit",
+        "pattern": "none",
+        "pattern_scale": 90,
+        "pattern_animation": "none"
+      }
+    }
+  },
+  "order": [
+    "d_gallery_LhyGHJ",
+    "d_collection_list_7gjCmr",
+    "d_images_collage_with_text_bMcymK",
+    "d_moving_text_9YcV7m",
+    "d_rich_text_E8mJLU",
+    "d_rich_text_GENtPe",
+    "d_featured_collection_with_image_mLNmaR",
+    "d_rich_text_QpHtQ8",
+    "d_rich_text_XjrCJi",
+    "d_featured_collection_pErTrE",
+    "d_rich_text_dDG8jk",
+    "d_rich_text_rkmcYH",
+    "d_logo_list_yJJLEe",
+    "d_video_popup_with_text_TPHLzx",
+    "d_image_with_text_ntM7XV",
+    "d_image_with_text_HgP67Q",
+    "d_image_columns_4VJiAc",
+    "d_newsletter_QtQFth"
+  ]
+}
