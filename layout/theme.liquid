@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    {% render '3cx' %}
    {% render 'gtm-customer-events-storefront' %}
    
     <!-- {% render 'head-start' %} 
@@ -78,8 +79,6 @@
   </script>
   
 <!--DOOFINDER-SHOPIFY--> {% render 'doofinder-scripts' %} <!--/DOOFINDER-SHOPIFY-->
-
-{% render '3cx' %}
   
 <script type="text/javascript">
       window.Shopify.loadFeatures(
