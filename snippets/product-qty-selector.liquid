@@ -7,7 +7,16 @@
         assign append_limit = true
     endif
 -%}
-
+<label
+  class="product-qty-selector-label"
+  for="Quantity-{{ section.id }}"
+>
+  {% if product.template_suffix == 'pack-template' %}
+    PACKS
+  {% else %}
+    Quantity
+  {% endif %}
+</label>
 {% render 'load-css', file: NS %}
 
 {%- capture Content -%}
