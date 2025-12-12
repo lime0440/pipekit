@@ -41,12 +41,9 @@
                             value="1"
                             {% endif %} 
                             form="{{ product_form_id }}"
-                            value="1"
-                            min="1"
                             {% if variant.inventory_management and variant.inventory_policy == 'deny' %}
                                 max="{{ variant.inventory_quantity }}" 
                             {% endif %} 
-                            step="1"
                             aria-label="{{ 'products.product.quantity.input_label' | t: product: product.title | escape }}"
                         >
                     </div>
