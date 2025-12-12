@@ -10,20 +10,23 @@ customElements.define('product-qty-input', class extends Core {
         $: ['button-minus', 'button-plus', 'input']
     }
 
-    currentValue = 1;
+currentValue = 1;
 
-    render() {
-        this.$('button-plus', { click: this._changeBy(1) });
-        this.$('button-minus', { click: this._changeBy(-1) });
-        this.$('input', { change: this._handleChange });
-    }
+render() {
+  this.$('button-plus', { click: this._changeBy(+1) });
+  this.$('button-minus', { click: this._changeBy(-1) });
+  this.$('input', { change: this._handleChange });
+}
 
-    _changeBy(value) {
-        return () => {
-            this.currentValue += value;
-            this._applyCurrentValue();
-        }
-    }
+_getStep() {
+  const input = this.$('input');
+  return parseInt(input?.getAttribute('step'), 10) || 1;
+}
+
+_getMin() {
+  const input = this.$('input');
+  return parseInt(input?.getAttribute('min'), 10) || 1;
+}
 
     _handleChange({ target }) {
         const value = target.valueAsNumber;
