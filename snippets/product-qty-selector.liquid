@@ -8,12 +8,6 @@
     endif
 -%}
 
-{% if product.template_suffix == 'pack-template' %}
-  PACKS
-{% else %}
-  {{ 'products.product.quantity.label' | t }}
-{% endif %}
-
 {% render 'load-css', file: NS %}
 
 {%- capture Content -%}
