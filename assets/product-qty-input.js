@@ -28,6 +28,18 @@ _getMin() {
   return parseInt(input?.getAttribute('min'), 10) || 1;
 }
 
+_changeBy(direction) {
+  return () => {
+    const step = this._getStep();
+    const min = this._getMin();
+
+    this.currentValue = (parseInt(this.currentValue, 10) || min) + (direction * step);
+    if (this.currentValue < min) this.currentValue = min;
+
+    this._applyCurrentValue();
+  };
+}
+
     _handleChange({ target }) {
         const value = target.valueAsNumber;
         if (this.qtyLimit && value > this.qtyLimit) {
