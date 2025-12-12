@@ -30,10 +30,15 @@ _getMin() {
 
 _changeBy(direction) {
   return () => {
-    const step = this._getStep();
-    const min = this._getMin();
+    const input = this.$('input');
+    const step = parseInt(input?.getAttribute('step'), 10) || 1;
+    const min = parseInt(input?.getAttribute('min'), 10) || 1;
 
-    this.currentValue = (parseInt(this.currentValue, 10) || min) + (direction * step);
+    // 🔑 Sync currentValue from input BEFORE incrementing
+    const current = parseInt(input.value, 10);
+    this.currentValue = Number.isFinite(current) ? current : min;
+
+    this.currentValue += direction * step;
     if (this.currentValue < min) this.currentValue = min;
 
     this._applyCurrentValue();
