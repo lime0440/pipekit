@@ -47,6 +47,14 @@
             "prev_attach": false
           }
         },
+        "custom_html_W4gwat": {
+          "type": "custom_html",
+          "settings": {
+            "heading": "",
+            "html": "<span style=\"\n  display:inline-block;\n  background:#2875B9;\n  color:#fff;\n  padding:12px 20px;\n  border-radius:999px;\n  font-size:15px;\n  font-weight:600;\n  line-height:1;\n\">\n  AVAILABLE IN PACKS ONLY\n</span>",
+            "prev_attach": true
+          }
+        },
         "sku_GaEqUD": {
           "type": "sku",
           "settings": {
@@ -194,6 +202,7 @@
       },
       "block_order": [
         "title",
+        "custom_html_W4gwat",
         "sku_GaEqUD",
         "description_e4ejUa",
         "17d79ac0-9468-4e01-9982-83445b2febda",
