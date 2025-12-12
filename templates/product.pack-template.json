@@ -58,7 +58,7 @@
         "sku_GaEqUD": {
           "type": "sku",
           "settings": {
-            "prev_attach": false
+            "prev_attach": true
           }
         },
         "description_e4ejUa": {
