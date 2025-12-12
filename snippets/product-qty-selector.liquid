@@ -54,7 +54,7 @@
             </div>
         {%- endcapture -%}
         <div class="{{ cn }}">
-            <label class="{{ cn }}-label" for="{{ input_id }}">{% if product.template_suffix == 'pack-template' %} PACKS {% else %} {{ 'products.product.quantity.label' | t }}{% endif %}</label>
+            <label class="{{ cn }}-label" for="{{ input_id }}">{% if product.template_suffix == 'pack-template' %} QUANTITY {% else %} {{ 'products.product.quantity.label' | t }}{% endif %}</label>
             {%- if type == 'input' -%}
                 {{ QtyInput }}
             {%- elsif type == 'dropdown' -%}
