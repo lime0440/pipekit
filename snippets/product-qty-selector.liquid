@@ -29,7 +29,16 @@
                             class="{{ cn }}-controls-input"
                             type="number"
                             name="quantity" 
-                            id="{{ input_id }}" 
+                            id="{{ input_id }}"
+                            {% if product.template_suffix == 'pack-template' %}
+                            min="10"
+                            step="10"
+                            value="10"
+                            {% else %}
+                            min="1"
+                            step="1"
+                            value="1"
+                            {% endif %} 
                             form="{{ product_form_id }}"
                             value="1"
                             min="1"
