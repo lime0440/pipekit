@@ -63,9 +63,11 @@
                     <div class="{{ cn }}-inner" data-element="selector-wrapper">
                         <select class="{{ cn }}-select" name="quantity" id="{{ input_id }}" form="{{ product_form_id }}">
                             {%- for i in (1..limit) -%}
-                                <option value="{{ i }}">
-                                    {{ i }}{%- if append_limit and forloop.last %}+{% endif -%}
-                                </option>
+                            {%- assign qty = i -%}
+                            {% if product.template_suffix == 'pack-template' %}
+                            {%- assign qty = i | times: 10 -%}
+                            {% endif %}
+                            <option value="{{ qty }}">{{ qty }}{%- if append_limit and forloop.last %}+{% endif -%}</option>
                             {%- endfor -%}
                         </select>
                         {% render 'icon', name: 'angle-down' %}
