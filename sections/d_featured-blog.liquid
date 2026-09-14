@@ -35,16 +35,7 @@
     %}
 {%- endcapture -%}
 
-{% render 'section-body',
-    content: Content,
-    heading: section.settings.heading,
-    subheading: section.settings.subheading,
-    force_layout: true,
-    width: 450px,
-    spaced: true,
-    button_label: section.settings.section_button_label,
-    button_link: section.settings.blog.url
-%}
+{% render 'section-body', content: Content, heading: section.settings.heading, subheading: section.settings.subheading, force_layout: true, width: renamed_variable_450px, spaced: true, button_label: section.settings.section_button_label, button_link: section.settings.blog.url %}
 
 {% schema %}
 {
@@ -173,4 +164,26 @@
             "groups": ["header", "footer", "custom.overlay"]
     }
 }
-{% endschema %}
+{% endschema %}{%- comment -%}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {% render 'section-body',
+        content: Content,
+        heading: section.settings.heading,
+        subheading: section.settings.subheading,
+        force_layout: true,
+        width: 450px,
+        spaced: true,
+        button_label: section.settings.section_button_label,
+        button_link: section.settings.blog.url
+    %}
+  to: "{% render 'section-body', content: Content, heading: section.settings.heading,
+    subheading: section.settings.subheading, force_layout: true, width: renamed_variable_450px,
+    spaced: true, button_label: section.settings.section_button_label, button_link:
+    section.settings.blog.url %}"
+  position: 1652..1931
+{%- endcomment -%}
